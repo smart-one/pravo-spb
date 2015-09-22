@@ -1,0 +1,1 @@
+<meta http-equiv="description" name="description" content="Вы можете подать онлайн заявку на регистрацию фирмы прямо на сайте">

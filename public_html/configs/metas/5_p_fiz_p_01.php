@@ -1,0 +1,1 @@
+<meta http-equiv="description" name="description" content="ЦЕНТР ПРАВОВЫХ УСЛУГ» проводит консультации граждан по юридическим вопросам">

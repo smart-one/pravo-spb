@@ -1,0 +1,106 @@
+/* CSS Document */
+
+.pageArea
+{
+	background: url(/pictures/top_04.jpg) repeat-x top;
+	min-height:300px;
+	width:540px;
+	border:0px solid black;
+}
+.pageArea2
+{
+	width:518px;
+	padding:0px 10px 0px 10px;
+	border:1px solid white;
+} 
+
+.pageArea2 p
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+	
+	margin:10px;
+	border:0px solid red;
+}
+.pageArea2, .pageArea2 li, em, ol, ul, form
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:14px;
+}
+
+
+.pageArea2 .button
+{
+	display:block;
+	margin-top:5px;
+	width:81px;
+	height:21px;
+	background:url(/pictures/p_15.jpg) no-repeat 0px 0px;
+	border:0px;
+	cursor:pointer;
+}
+.pageArea2 h1
+{
+	text-align:center;
+	font-size:19px;
+}
+
+
+
+
+
+
+
+
+
+/* Specialy for services */
+.pageArea2 .menuName
+{
+	padding:5px;
+	margin:10px 0px 0px 0px; 
+	background:url(/pictures/leftSideBg.jpg) repeat-y 0px 0px #82d6fa;
+
+}
+.menuName p
+{
+	text-align:left;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10pt;
+	color:#02558f;
+	font-weight:bold;
+	
+	margin:5px;
+	background:url(/pictures/list1.jpg) no-repeat center left;
+	padding-left:20px;
+	cursor:pointer;
+}
+.menuContainerOpen
+{
+	width:274px;
+	text-align:left;
+	padding:5px;
+	display:block;
+}
+.menuContainerOpen .currentLink
+{
+	font-weight:bold;
+	color:#2ea1d3;
+}
+
+.menuContainerOpen a
+{
+	display:block;
+	color:black;
+	margin:5px;
+	
+	font-size:10pt;
+	font-family:Arial, Helvetica, sans-serif;
+	text-decoration:none;
+	
+	background:url(/pictures/list2.jpg) no-repeat 0px 5px;
+	padding-left:19px;
+}
+.menuContainerOpen a:hover
+{
+	color:#0099FF;
+}

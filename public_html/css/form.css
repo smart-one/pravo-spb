@@ -1,0 +1,101 @@
+/* CSS Document */
+
+.form-top
+{
+	width:475px;
+	min-height:100px;
+	
+	background:url(/pictures/form/form_03.jpg) no-repeat top left;
+}
+.form-bg
+{
+	width:475px;
+	min-height:100px;
+	
+	background:url(/pictures/form/form_05.jpg) repeat-y left;
+}
+
+.form-bottom
+{
+	width:475px;
+	min-height:100px;
+	
+	padding-top:20px;
+	padding-bottom:20px;
+	background:url(/pictures/form/form_19.jpg) no-repeat bottom left;
+}
+
+
+.form-header
+{
+	width:455px;
+	height:20px;
+	background:url(/pictures/form/form_07.jpg) no-repeat right;
+	
+	padding:5px 20px 0px 0px;
+	color:#94612b;
+	font-family: Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	font-size:14px;
+	
+	text-align:right;
+	border:0px solid red;
+}
+
+.form-input
+{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:10px;
+	color:black;
+	font-weight:normal;
+	
+	text-align:left;
+	margin:10px;
+}
+
+.f-body
+{
+	background:url(/pictures/form/form_12.jpg) repeat-x top;
+	height:24px;
+	display:inline-block;
+}
+
+.f-body input
+{
+	height:15px;
+	border:0px;
+	font-size:10px;
+	font-family:Arial, Helvetica, sans-serif;
+	padding:0px;
+}
+.f-body select
+{
+	height:20px;
+	border:0px;
+	font-size:12px;
+	font-family:Arial, Helvetica, sans-serif;
+	margin-top:2px;
+}
+
+.f-right
+{
+	background:url(/pictures/form/form_14.jpg) no-repeat  right top;
+	height:24px;
+	padding-right:10px;
+	display:inline-block;
+}
+.f-left
+{
+	background:url(/pictures/form/form_10.jpg) no-repeat left top;
+	height:24px;
+	padding-left:10px;
+	display:inline-block;
+}
+
+.form-input-title
+{
+	font-size:13px;
+	color:#02558f;
+	font-weight:bold;
+
+}
