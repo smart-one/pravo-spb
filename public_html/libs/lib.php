@@ -113,4 +113,10 @@ function getBrowser()
 
 	return false;
 }
-?>
+
+function dd($str){
+	echo "<pre>";
+	var_dump($str);
+	echo "</pre>";
+	die();
+}

@@ -6,10 +6,9 @@ RewriteBase /
 
 
 RewriteRule ^\.htaccess - [F]
-RewriteRule ^([a-zA-Z0-9]+)$		/index.php?page=/p_$1.php
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME} !-f
 
-RewriteRule ^ur\/(01|02|03|04|05|06|07|08|09|10|19|19_2|19_3|20|21_2|22|22_1|22_2|22_3|22_4)$ [R=404,L]
-
-RewriteRule ^([a-zA-Z0-9]+)\/([a-zA-Z0-9_]+)$ /index.php?page=/p_$1/p_$2.php
+RewriteRule ^(.+)$ index.php?page=$1 [QSA,L]
 
 

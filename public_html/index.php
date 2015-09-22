@@ -1,10 +1,9 @@
-<? require_once $_SERVER['DOCUMENT_ROOT']."/configs/config.php";
+<?php 
+    require_once $_SERVER['DOCUMENT_ROOT']."/configs/config.php";
 	$page = new myPage($_GET["page"]);
-//	if($page->error) die($page->error);
-
-	//$page->title = $title;
 	$page->getThisPageAttributs();
-	?><!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+?>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
 <html>
 <head>
 <? echo $page->metas;?>
@@ -19,7 +18,7 @@
 </head>
 
 <body>
-	<center>
+    <center>
     <table cellpadding="0" cellspacing="0" border="0" class="tb_index" >
     <tr>
     	<td colspan="100%"  style="height:146px;">

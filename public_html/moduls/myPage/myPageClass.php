@@ -40,17 +40,17 @@ class MyPage
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////////// Опции  ///////////////////////////////////////////////////////
 	//Страница по умолчанию
-	public $defaultPage="/head.php";
+	public $defaultPage = "/head.php";
 	//Заголовок по умолчанию
-	public $title="Не найдено.";
+	public $title = "Не найдено.";
 	//Директория где хранятся meta заголовки
-	private $metaDefinitionDir="/configs/metas";
+	private $metaDefinitionDir = "/configs/metas";
 	//Файл определения настроек страниц
-	private $defineXMLFile="/configs/metas/define.xml";
+	private $defineXMLFile = "/configs/metas/define.xml";
 
 
-	public $error=false;
-	public $statusLog="";
+	public $error = false;
+	public $statusLog = "";
 	//Опция: Создать файл если его нет
 	public $createFileIfNotExist = 0;
 	
@@ -59,18 +59,17 @@ class MyPage
 	////////////////////////////////// Методы ///////////////////////////////////////////////////////
 
 	//Конструктор - определяет название страницы
-	public function MyPage($src)
+	public function __construct($src)
 	{
-		if(empty($src))	
-		{	
-			$this->src=$this->defaultPage;
-			$this->error="Страница не задана!";
+		if(empty($src)){	
+			$this->src = $this->defaultPage;
+			$this->error = "Страница не задана!";
 			return 0;
+		} else {
+			$this->src = htmlspecialchars($src);
 		}
-		else
-			$this->src=htmlspecialchars($src);
-	
-		$this->path=$_SERVER['DOCUMENT_ROOT'].$this->src;
+		$this->path = $_SERVER['DOCUMENT_ROOT'] . $this->src;
+		
 		return 1;
 	}
 	
