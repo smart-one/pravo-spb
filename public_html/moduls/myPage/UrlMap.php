@@ -4,12 +4,6 @@ class UrlMap{
 
   public static $urls = [
 
-    "novosti" => "/p_news.php", # /news
-    "kontakti" => "/p_contacts.php", # /contacts
-    "ur-ceni" => "/p_urPrices.php",
-    "fiz-ceni" => "/p_fizPrices.php",
-    "zadat-vopros" => "/p_question.php",
-
     "poluchit-licenziyu-na-prodazhu-alkogolia" => "/p_ur/p_01.php",
     "poluchit-licenziyu-chop" => "/p_ur/p_02.php",
     "poluchit-transportnuyu-licenziyu" => "/p_ur/p_03.php",
@@ -60,6 +54,7 @@ class UrlMap{
 
     "likvidaciya-firmi-putem-reorganizacii" => "/p_ur/p_20_1.php", # ur/20_1
     "likvidaciya-firmi-putem-isklucheniya-iz-egrul" => "/p_ur/p_20_2.php",
+    "likvidaciya-ooo-s-dolgami" => "/p_ur/p_30.php",
     "bankrotstvo-firmi-ooo" => "/p_ur/p_20_3.php",
 
     "registraciya-ooo-zao" => "/p_ur/p_11_2.php",
@@ -80,17 +75,28 @@ class UrlMap{
     "vstupit-v-sro-stroitiley" => "/p_ur/p_19_3.php",
     "uridicheskaya-pomosh" => "/p_fiz/p_12.php",
 
-    "zakazat-zvonok" => "/p_ring",
-    "online-zayavka" => "/p_regfirm",
-    "dobavit-uchreditela" => "/p_adduch",
-    "ur-uslugi" => "/p_service",
-    "ceni" => "/p_price",
-    "informaciya" => "/p_info",
-    "akcii" => "/p_actions",
-
-    "likvidaciya-ooo" => "/ur/11",
-    "karta-sayta" => "/p_sitemap.php",
-    "likvidaciya-ooo-s-dolgami" => "/p_ur/p_30.php",
-
+    "ur-price" => "/p_urPrices.php",
+    "fiz-price" => "/p_fizPrices.php",
+    "price" => "/p_price.php",
+    "question" => "/p_question.php",
+    "ring" => "/p_ring.php",
+    "online-zayavka" => "/p_regfirm.php",
+    "dobavit-uchreditela" => "/p_adduch.php",
+    "service" => "/p_service.php",
+    "info" => "/p_info.php",
+    "actions" => "/p_actions.php",
+    "search" => "/p_search.php",
+    "news" => "/p_news.php", # /news
+    "contacts" => "/p_contacts.php", # /contacts
+    "sitemap" => "/p_sitemap.php",
   ];
+
+  public static function getSearchPages(){
+    $res = ["/"];
+    foreach (self::$urls as $key => $value) {
+        $res[] = "/" . $key;
+    }
+
+    return $res;
+  }
 }

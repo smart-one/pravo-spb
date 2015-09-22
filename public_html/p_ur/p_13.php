@@ -46,47 +46,4 @@
 	<li>Высокий профессиональный уровень решения задач, поставленных перед нами клиентом.</li>
 </ul>
 
-<h3 style="font-size: 14px; color: #0a7ff4;">Работаем каждый день кроме субботы и воскресенья с 9.30 до 19.00.</h3>
-
-<h3 style="font-size: 14px; color: #0a7ff4;">Наши адреса:</h3>
-<ul>
-<li>г.Санкт-Петербург, Московский пр., д.2,</li>
-<li>г.Санкт-Петербург,Ленинский пр., д. 153,</li>
-<li>г.Санкт-Петербург,Каменноостровский пр., д. 39,</li>
-<li>г.Санкт-Петербург, пр. Косыгина, д. 21.</li>
-</ul>
-
-<p>Связаться с нами можно по телефону +7(812)987-34-28.</p>
-
-<p style="font-family: 'Arial', 'Helvetica', sans-serif; font-weight: 500; color: #0a7ff4; text-align: right;">В Санкт-Петербурге курьер бесплатно доставит юридические документы. </p>
-
-<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
-
-<map name="map1">
-
-	
-
-	<area shape="rect" coords="17,110,159,127" href="/question">
-
-	<area shape="rect" coords="171,110,248,127" href="/price">
-
-</map>
-
-</div>
-
-<script type="text/javascript">
-
-	openListById('mc_4');
-
-</script>
-
-<hr style="font-size: 9px; font-weight: 100; color: #0a7ff4;" />
-<h2 style="font-size: 14px; color: #0a7ff4;">Другие услуги Центра Правовых Услуг:</h2>
-<ul>
-<li><a href="http://pravo-spb.net/ur/11" title="Регистрация ООО">Регистрация ООО от 9000 рублей</a></li>
-<li><a href="http://pravo-spb.net/ur/21" title="Готовые ООО">Готовые фирмы ООО от 25.000 рублей</a></li>
-<li><a href="http://pravo-spb.net/ur/15" title="Юридический адрес">Предоставление юридического адреса от 2500 р</a></li>
-<li><a href="http://pravo-spb.net/ur/15_1" title="Открыть расчетный счет">Открытие расчетного счета в банке</a></li>
-</ul>
-<hr style="font-size: 9px; font-weight: 100; color: #0a7ff4;" />
-<p style="font-size: 10px; color: #0a7ff4; text-align: center;">Юридическая Компания "Центр Правовых Услуг" 2009 г. Санкт-Петербург. Ликвидация и регистрация предприятий, готовые фирмы.</p>
+<?php require("/registry_common_part.php");

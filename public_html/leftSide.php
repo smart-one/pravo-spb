@@ -5,29 +5,29 @@
 
 <div class="menuName" style="border-top:0px" onclick="openList(this);"><p>Ликвидация фирм</p></div>
         <div class="menuContainer" id="mc_4">
-            <a href="/ur/13">Путем продажи доли</a>
-            <a href="/ur/20_1">Путем реорганизации</a>
-             <a href="/ur/30">Ликвидация фирм с долгами</a>
-            <a href="/ur/20_3">Сопровождение процедуры банкротства</a>
-            <a href="/ur/20_2">Ответы на вопросы по ликвидации ООО</a>
+            <a href="/licvidaciya-ooo-putem-prodagi-doli">Путем продажи доли</a>
+            <a href="/likvidaciya-firmi-putem-reorganizacii">Путем реорганизации</a>
+             <a href="/likvidaciya-ooo-s-dolgami">Ликвидация фирм с долгами</a>
+            <a href="/bankrotstvo-firmi-ooo">Сопровождение процедуры банкротства</a>
+            <a href="/likvidaciya-firmi-putem-isklucheniya-iz-egrul">Ответы на вопросы по ликвидации ООО</a>
         </div>
 
 <div class="menuName" onclick="openList(this);"><p>Готовые фирмы</p></div>
         <div class="menuContainer" id="mc_5">
-            <a href="/ur/21">Фирмы без открытого счета</a>
-            <a href="/ur/21_1">Фирмы с открытым счетом и банк-клиентом</a>
-            <a href="/ur/14">Фирмы на заказ</a>
-            <a href="/ur/21_3">Ответы на вопросы по готовым фирмам. Справочная информация</a>
+            <a href="/gotivie-ooo-bez-cheta">Фирмы без открытого счета</a>
+            <a href="/gotovie-firmi-s-otkritim-chetom">Фирмы с открытым счетом и банк-клиентом</a>
+            <a href="/prodaja-gotovih-firm">Фирмы на заказ</a>
+            <a href="/otveti-na-voprosi-po-pokupke-gotovih-firm">Ответы на вопросы по готовым фирмам. Справочная информация</a>
         </div>
 
 <div class="menuName" onclick="openList(this);"><p>Регистрация фирм и предпринимателей</p></div>
         <div class="menuContainer" id="mc_1">
-            <a href="/ur/11">Регистрация ООО</a>
-            <a href="/ur/11_2">Регистрация ЗАО, ОАО</a>
-            <a href="/ur/11_3">Регистрация некоммерческих организаций</a>
-            <a href="/ur/11_4">Регистрация предпринимателей</a>
-            <a href="/ur/11_5">Регистрация филиала, представительства</a>
-            <a href="/ur/11_6">Перерегистрация ООО с 1.07.2009</a>
+            <a href="/registraciya-ooo-v-spb">Регистрация ООО</a>
+            <a href="/registraciya-ooo-zao">Регистрация ЗАО, ОАО</a>
+            <a href="/registraciya-nekommercheskih-organizaciy">Регистрация некоммерческих организаций</a>
+            <a href="/registraciya-ip">Регистрация предпринимателей</a>
+            <a href="/registraciya-filiala">Регистрация филиала, представительства</a>
+            <a href="/pereregistracia-ooo">Перерегистрация ООО с 1.07.2009</a>
         </div>
     
 
@@ -36,16 +36,16 @@
 
         <div class="menuName" onclick="openList(this);"><p>Дополнительные услуги при регистрации фирм и предпринимателей</p></div>
         <div class="menuContainer" id="mc_2">        
-            <a href="/ur/15">Предоставление юридического адреса</a>
-            <a href="/ur/15_1">Открытие расчетного счета</a>
-            <a href="/ur/15_2">Изготовление печатей и штампов</a>
-            <a href="/ur/15_3">Выезд специалиста к заказчику</a>
-            <a href="/ur/15_4">Выезд курьера к заказчику</a>
+            <a href="/predostavlenie-uridicheskogo-adresa-pri-registracii">Предоставление юридического адреса</a>
+            <a href="/otkrit-schet">Открытие расчетного счета</a>
+            <a href="/zakazat-pechat">Изготовление печатей и штампов</a>
+            <a href="/viezd-urista-k-zakazchiku">Выезд специалиста к заказчику</a>
+            <a href="/viezd-kurera-k-zakazchiku">Выезд курьера к заказчику</a>
         </div>
     
         <div class="menuName" onclick="openList(this);"><p>Внесение изменений</p></div>
         <div class="menuContainer" id="mc_3"> 
-            <a href="/ur/12">Изменения вносимые в Устав</a>
+            <a href="/vnesenie-izmeneniy-v-ustav">Изменения вносимые в Устав</a>
         </div>
     
        

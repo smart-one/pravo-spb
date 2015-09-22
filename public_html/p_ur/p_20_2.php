@@ -46,36 +46,4 @@
 
 <p>&nbsp;</p>
 
-
-
-<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
-
-<map name="map1">
-
-	
-
-	<area shape="rect" coords="17,110,159,127" href="/question">
-
-	<area shape="rect" coords="171,110,248,127" href="/price">
-
-</map>
-
-</div>
-
-<script type="text/javascript">
-
-	openListById('mc_4');
-
-</script>
-
-<hr style="font-size: 9px; font-weight: 100; color: #0a7ff4;" />
-<h2 style="font-size: 14px; color: #0a7ff4;">Предлагаем юридические услуги:</h2>
-<ul>
-<li><a href="http://pravo-spb.net" title="Ликвидация ООО">Ликвидация ООО</a></li>
-<li><a href="http://pravo-spb.net/ur/11" title="Регистрация ООО">Регистрация ООО от 9000 рублей</a></li>
-<li><a href="http://pravo-spb.net/ur/21" title="Готовые ООО">Готовые фирмы ООО от 25.000 рублей</a></li>
-<li><a href="http://pravo-spb.net/ur/15" title="Юридический адрес">Предоставление юридического адреса от 2500 р</a></li>
-<li><a href="http://pravo-spb.net/ur/15_1" title="Открыть расчетный счет">Открытие расчетного счета в банке</a></li>
-</ul>
-<hr style="font-size: 9px; font-weight: 100; color: #0a7ff4;" />
-<p style="font-size: 10px; color: #0a7ff4; text-align: center;">Юридическая Компания "Центр Правовых Услуг" 2009 г. Санкт-Петербург. Ликвидация и регистрация предприятий, готовые фирмы.</p>   
+<?php require("/registry_common_part.php");

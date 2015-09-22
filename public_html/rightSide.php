@@ -11,14 +11,14 @@
 
 
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/15_4" title="Бесплатный выезд курьера">КУРЬЕР БЕСПЛАТНО!</a></h3>
+<h3><a href="/viezd-kurera-k-zakazchiku" title="Бесплатный выезд курьера">КУРЬЕР БЕСПЛАТНО!</a></h3>
    
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/20_2" title="Вопросы по Ликвидации ООО">FAQ по Ликвидации </a></h3>
+<h3><a href="/likvidaciya-firmi-putem-isklucheniya-iz-egrul" title="Вопросы по Ликвидации ООО">FAQ по Ликвидации </a></h3>
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/21_3" title="Вопросы по готовым фирмам">FAQ по покупке готовых фирм</a></h3>
+<h3><a href="/otveti-na-voprosi-po-pokupke-gotovih-firm" title="Вопросы по готовым фирмам">FAQ по покупке готовых фирм</a></h3>
 <hr/>
-<h3><a href="http://pravo-spb.net/ring" title="бесплатная консультация юриста">КОНСУЛЬТАЦИЯ ЮРИСТА</a></h3><hr/>
+<h3><a href="/ring" title="бесплатная консультация юриста">КОНСУЛЬТАЦИЯ ЮРИСТА</a></h3><hr/>
 	<form class="search" action="/search" method="post">
 
     	<input type="text" name="sstring" value="" class="input">
@@ -31,7 +31,7 @@
 
     <a class="question" href="/question"></a>
 
-    <a class="regfrm" href="/regfirm"></a>
+    <a class="regfrm" href="/online-zayavka"></a>
 
     
 

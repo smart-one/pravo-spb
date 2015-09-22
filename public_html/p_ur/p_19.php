@@ -49,7 +49,7 @@
 
 
 
-<p><a title="готовые фирмы с допуском СРО" href="/ur/21_3">Готовые фирмы с допуском СРО</a></p>
+<p><a title="готовые фирмы с допуском СРО" href="/otveti-na-voprosi-po-pokupke-gotovih-firm">Готовые фирмы с допуском СРО</a></p>
 <p>&nbsp;</p>
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
