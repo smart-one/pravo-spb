@@ -11,11 +11,12 @@ define(_ADMIN_MAIL,"pravo-spb@mail.ru");
 
 
 $_Browser = $_SERVER['HTTP_USER_AGENT'];
-if(strstr($_Browser,"MSIE")) $_Browser="MSIE";
-if(strstr($_Browser,"Firefox")) $_Browser="Firefox";
-if(strstr($_Browser,"Opera")) $_Browser="Opera";
+if(strstr($_Browser,"MSIE")) $_Browser = "MSIE";
+if(strstr($_Browser,"Firefox")) $_Browser = "Firefox";
+if(strstr($_Browser,"Opera")) $_Browser = "Opera";
 
 $root = $_SERVER['DOCUMENT_ROOT'];
 
-include $root."/moduls/myPage/myPageClass.php";
-include $root."/libs/lib.php";
+include $root . "/moduls/myPage/UrlMap.php";
+include $root . "/moduls/myPage/myPageClass.php";
+include $root . "/libs/lib.php";

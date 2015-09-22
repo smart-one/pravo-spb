@@ -48,7 +48,7 @@ class MyPage
 	//Файл определения настроек страниц
 	private $defineXMLFile = "/configs/metas/define.xml";
 
-
+	protected $urlMap = null;
 	public $error = false;
 	public $statusLog = "";
 	//Опция: Создать файл если его нет
@@ -57,20 +57,17 @@ class MyPage
 	public $startUpText = "Новая страница";
 	/////////////////////////////////////////////////////////////////////////////////////////////////
 	////////////////////////////////// Методы ///////////////////////////////////////////////////////
-	
-	protected $urls = [
-		
-	];
 
 	//Конструктор - определяет название страницы
 	public function __construct($src)
 	{
+		$this->urlMap = UrlMap::$urls;
 		if(empty($src)){	
 			$this->src = $this->defaultPage;
 			$this->error = "Страница не задана!";
 			return 0;
 		} else {
-			$this->src = htmlspecialchars($src);
+			$this->src = $this->urlMap[htmlspecialchars($src)];
 		}
 		$this->path = $_SERVER['DOCUMENT_ROOT'] . $this->src;
 		
