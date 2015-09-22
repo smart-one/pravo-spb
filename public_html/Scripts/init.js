@@ -9,12 +9,12 @@ $(document.body).ready(function(){
 		
 		if(moreObjectBox.css('display')=='none')
 		{
-			$(this).text('скрыть подробную информацию');
+			$(this).text('СЃРєСЂС‹С‚СЊ РїРѕРґСЂРѕР±РЅСѓСЋ РёРЅС„РѕСЂРјР°С†РёСЋ');
 			moreObjectBox.show();
 		}
 		else
 		{
-			$(this).text('подробнее...');
+			$(this).text('РїРѕРґСЂРѕР±РЅРµРµ...');
 			moreObjectBox.hide();
 		}
 		return false;	

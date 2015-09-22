@@ -1,4 +1,4 @@
-<meta http-equiv="description" name="description" content="Ïðåäëàãàåìûå ãîòîâûå ôèðìû â Ñàíêò-Ïåòåðáóðãå ïîìîãóò Âàì íà÷àòü áèçíåñ óæå ñåãîäíÿ
+<meta http-equiv="description" name="description" content="ÐŸÑ€ÐµÐ´Ð»Ð°Ð³Ð°ÐµÐ¼Ñ‹Ðµ Ð³Ð¾Ñ‚Ð¾Ð²Ñ‹Ðµ Ñ„Ð¸Ñ€Ð¼Ñ‹ Ð² Ð¡Ð°Ð½ÐºÑ‚-ÐŸÐµÑ‚ÐµÑ€Ð±ÑƒÑ€Ð³Ðµ Ð¿Ð¾Ð¼Ð¾Ð³ÑƒÑ‚ Ð’Ð°Ð¼ Ð½Ð°Ñ‡Ð°Ñ‚ÑŒ Ð±Ð¸Ð·Ð½ÐµÑ ÑƒÐ¶Ðµ ÑÐµÐ³Ð¾Ð´Ð½Ñ
 ">
-		<meta http-equiv="keywords" name="keywords" content="Ãîòîâûå ÎÎÎ áåç ðàñ÷åòíîãî ñ÷åòà
+		<meta http-equiv="keywords" name="keywords" content="Ð“Ð¾Ñ‚Ð¾Ð²Ñ‹Ðµ ÐžÐžÐž Ð±ÐµÐ· Ñ€Ð°ÑÑ‡ÐµÑ‚Ð½Ð¾Ð³Ð¾ ÑÑ‡ÐµÑ‚Ð°
 ">

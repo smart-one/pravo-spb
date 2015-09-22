@@ -13,7 +13,7 @@ function DD_Draw(parentObj,index)
 	div.style.top=(pos.top+pos.height-10)+"px";
 	div.style.left=(pos.left)+"px";
 	
-	//alert("Родительский объект находится на "+pos.top+" : "+pos.left+" высота -"+pos.height+"\nДочерний объект перемещен на "+div.style.top+" : "+div.style.left);
+	//alert("Р РѕРґРёС‚РµР»СЊСЃРєРёР№ РѕР±СЉРµРєС‚ РЅР°С…РѕРґРёС‚СЃСЏ РЅР° "+pos.top+" : "+pos.left+" РІС‹СЃРѕС‚Р° -"+pos.height+"\nР”РѕС‡РµСЂРЅРёР№ РѕР±СЉРµРєС‚ РїРµСЂРµРјРµС‰РµРЅ РЅР° "+div.style.top+" : "+div.style.left);
 	
 }
 

@@ -1,3 +1,3 @@
 <? include $_SERVER['DOCUMENT_ROOT']."/a_liveintrnet.php";?>
-<p><a href="/sitemap" title="Карта сайта">Карта сайта</a></p>
-    <p><a href="http://itsurfing.ru" style="font-size:10px; color:#02558f;">Сайт разработан компанией <br>"IT-Surfing"</a></p>
+<p><a href="/sitemap" title="РљР°СЂС‚Р° СЃР°Р№С‚Р°">РљР°СЂС‚Р° СЃР°Р№С‚Р°</a></p>
+    <p><a href="http://itsurfing.ru" style="font-size:10px; color:#02558f;">РЎР°Р№С‚ СЂР°Р·СЂР°Р±РѕС‚Р°РЅ РєРѕРјРїР°РЅРёРµР№ <br>"IT-Surfing"</a></p>

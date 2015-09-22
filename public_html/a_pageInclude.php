@@ -1,12 +1,12 @@
 <div style="background:#82d6fa; height:20px;"></div>
 <table class="bookmarkContainer" cellpadding="0" cellspacing="0" border="0">
 <tr>
-	<td class="bookmark <? if($page->src=="/head.php") echo "selected"?>"><p><a href="/">Главная</a></p></td>
-	<td class="bookmark <? if($page->src=="/p_service.php") echo "selected"?>"><p><a href="/service">Услуги</a></p></td>
-	<td class="bookmark <? if($page->src=="/p_price.php") echo "selected"?>"><p><a href="/price">Цены</a></p></td>
-	<td class="bookmark <? if($page->src=="/p_info.php") echo "selected"?>"><p><a href="/info">Полезная информация</a></p></td>
-	<?php /* <td class="bookmark <? if($page->src=="/p_actions.php") echo "selected"?>"><p><a href="/actions"><small>Акции и скидки</small></a></p></td> */?>
-	<td class="bookmark <? if($page->src=="/p_contacts.php") echo "selected"?>"><p><a href="/contacts">Контакты</a></p></td>
+	<td class="bookmark <? if($page->src=="/head.php") echo "selected"?>"><p><a href="/">Р“Р»Р°РІРЅР°СЏ</a></p></td>
+	<td class="bookmark <? if($page->src=="/p_service.php") echo "selected"?>"><p><a href="/service">РЈСЃР»СѓРіРё</a></p></td>
+	<td class="bookmark <? if($page->src=="/p_price.php") echo "selected"?>"><p><a href="/price">Р¦РµРЅС‹</a></p></td>
+	<td class="bookmark <? if($page->src=="/p_info.php") echo "selected"?>"><p><a href="/info">РџРѕР»РµР·РЅР°СЏ РёРЅС„РѕСЂРјР°С†РёСЏ</a></p></td>
+	<?php /* <td class="bookmark <? if($page->src=="/p_actions.php") echo "selected"?>"><p><a href="/actions"><small>РђРєС†РёРё Рё СЃРєРёРґРєРё</small></a></p></td> */?>
+	<td class="bookmark <? if($page->src=="/p_contacts.php") echo "selected"?>"><p><a href="/contacts">РљРѕРЅС‚Р°РєС‚С‹</a></p></td>
     <td>&nbsp;&nbsp;&nbsp;</td>
 </tr>
 </table>

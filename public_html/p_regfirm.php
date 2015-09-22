@@ -11,7 +11,7 @@ foreach($_POST as $key=>$value)
 <div class="form-bg">
 	<div class="form-top">
     	<div class="form-bottom">
-        	<div class="form-header">Онлайн заявка на регистрацию фирмы</div>
+        	<div class="form-header">РћРЅР»Р°Р№РЅ Р·Р°СЏРІРєР° РЅР° СЂРµРіРёСЃС‚СЂР°С†РёСЋ С„РёСЂРјС‹</div>
 
 
             <form id="regfirmform" method="post" action="/sender.php" >
@@ -19,30 +19,30 @@ foreach($_POST as $key=>$value)
             <input type="hidden" name="u4index" value="<? echo isset($_POST["u4index"])? $_POST["u4index"]:0;?>">
            
              
-            <p class="form-input"><span class="form-input-title">Организационно-правовая форма:</span><br>
-           <input type="radio" name="ftype" value="OOO" <? if(!isset($_POST["ftype"]) or $_POST["ftype"]=="OOO") echo "checked";?>> - ООО<br>
-             <input type="radio" name="ftype" value="ЗАО" <? if($_POST["ftype"]=="ЗАО") echo "checked";?>> - ЗАО<br>
-             <input type="radio" name="ftype" value="ОАО" <? if($_POST["ftype"]=="ОАО") echo "checked";?>> - ОАО<br>
-             <input type="radio" name="ftype" value="Индивидуальный предприниматель" <? if($_POST["ftype"]=="Индивидуальный предприниматель") echo "checked";?>> - Индивидуальный предприниматель
+            <p class="form-input"><span class="form-input-title">РћСЂРіР°РЅРёР·Р°С†РёРѕРЅРЅРѕ-РїСЂР°РІРѕРІР°СЏ С„РѕСЂРјР°:</span><br>
+           <input type="radio" name="ftype" value="OOO" <? if(!isset($_POST["ftype"]) or $_POST["ftype"]=="OOO") echo "checked";?>> - РћРћРћ<br>
+             <input type="radio" name="ftype" value="Р—РђРћ" <? if($_POST["ftype"]=="Р—РђРћ") echo "checked";?>> - Р—РђРћ<br>
+             <input type="radio" name="ftype" value="РћРђРћ" <? if($_POST["ftype"]=="РћРђРћ") echo "checked";?>> - РћРђРћ<br>
+             <input type="radio" name="ftype" value="РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ" <? if($_POST["ftype"]=="РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ") echo "checked";?>> - РРЅРґРёРІРёРґСѓР°Р»СЊРЅС‹Р№ РїСЂРµРґРїСЂРёРЅРёРјР°С‚РµР»СЊ
            </p>
             
            
-            <p class="form-input"><span class="form-input-title">* Наименование на русском языке:</span><br>
+            <p class="form-input"><span class="form-input-title">* РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР° СЂСѓСЃСЃРєРѕРј СЏР·С‹РєРµ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="fname" style="width:400px;" maxlength="40" value="<? echo @$_POST["fname"];?>"></span></span></span></p>
            
-           <p class="form-input"><span class="form-input-title"> Наименование на английском языке(если требуется):</span><br>
+           <p class="form-input"><span class="form-input-title"> РќР°РёРјРµРЅРѕРІР°РЅРёРµ РЅР° Р°РЅРіР»РёР№СЃРєРѕРј СЏР·С‹РєРµ(РµСЃР»Рё С‚СЂРµР±СѓРµС‚СЃСЏ):</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="fenglishname" style="width:400px;" maxlength="40" value="<? echo @$_POST["fenglishname"];?>"></span></span></span><br>
             
 </p>
            
-           <p class="form-input"><span class="form-input-title">* Номер телефона для ИФНС:</span><br>
+           <p class="form-input"><span class="form-input-title">* РќРѕРјРµСЂ С‚РµР»РµС„РѕРЅР° РґР»СЏ РР¤РќРЎ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="ifns_phonenumber" style="width:400px;" maxlength="40" value="<? echo @$_POST["ifns_phonenumber"];?>"></span></span></span></p>
            
-           <p class="form-input"><span class="form-input-title">* Юридический адрес:</span><br>
-           <input type="radio" name="ur_adress_type" value="есть" <? if(!isset($_POST["ur_adress_type"]) or $_POST["ur_adress_type"]=="есть") echo "checked";?>> есть(указать точный адрес):
+           <p class="form-input"><span class="form-input-title">* Р®СЂРёРґРёС‡РµСЃРєРёР№ Р°РґСЂРµСЃ:</span><br>
+           <input type="radio" name="ur_adress_type" value="РµСЃС‚СЊ" <? if(!isset($_POST["ur_adress_type"]) or $_POST["ur_adress_type"]=="РµСЃС‚СЊ") echo "checked";?>> РµСЃС‚СЊ(СѓРєР°Р·Р°С‚СЊ С‚РѕС‡РЅС‹Р№ Р°РґСЂРµСЃ):
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="ur_adress" style="width:400px;" maxlength="100" value="<? echo @$_POST["ur_adress"];?>"></span></span></span>
             
-           <br><input type="radio" name="ur_adress_type" value="желаю приобрести" <? if($_POST["ur_adress_type"]=="желаю приобрести") echo "checked";?>> желаю приобрести(желаемый район):
+           <br><input type="radio" name="ur_adress_type" value="Р¶РµР»Р°СЋ РїСЂРёРѕР±СЂРµСЃС‚Рё" <? if($_POST["ur_adress_type"]=="Р¶РµР»Р°СЋ РїСЂРёРѕР±СЂРµСЃС‚Рё") echo "checked";?>> Р¶РµР»Р°СЋ РїСЂРёРѕР±СЂРµСЃС‚Рё(Р¶РµР»Р°РµРјС‹Р№ СЂР°Р№РѕРЅ):
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="ur_adress_area" style="width:400px;" maxlength="100" value="<? echo @$_POST["ur_adress_area"];?>"></span></span></span></p>
            
            
@@ -56,16 +56,16 @@ foreach($_POST as $key=>$value)
            
            
            
-           <p class="form-input"><span class="form-input-title">Система налогообложения:</span><br>
-            <input type="radio" name="nalog_system" value="Обычная" <? if(!isset($_POST["nalog_system"]) or $_POST["nalog_system"]=="Обычная") echo "checked";?>> Обычная<br>
-            <input type="radio" name="nalog_system" value="УСН 6%" <? if($_POST["nalog_system"]=="УСН 6%") echo "checked";?>> УСН 6%<br>
-            <input type="radio" name="nalog_system" value="УСН 15%" <? if($_POST["nalog_system"]=="УСН 15%") echo "checked";?>> УСН 15%<br>
-            <input type="radio" name="nalog_system" value="Не знаю(требуется консультация)" <? if($_POST["nalog_system"]=="Не знаю(требуется консультация)") echo "checked";?>> Не знаю(требуется консультация)<br>
+           <p class="form-input"><span class="form-input-title">РЎРёСЃС‚РµРјР° РЅР°Р»РѕРіРѕРѕР±Р»РѕР¶РµРЅРёСЏ:</span><br>
+            <input type="radio" name="nalog_system" value="РћР±С‹С‡РЅР°СЏ" <? if(!isset($_POST["nalog_system"]) or $_POST["nalog_system"]=="РћР±С‹С‡РЅР°СЏ") echo "checked";?>> РћР±С‹С‡РЅР°СЏ<br>
+            <input type="radio" name="nalog_system" value="РЈРЎРќ 6%" <? if($_POST["nalog_system"]=="РЈРЎРќ 6%") echo "checked";?>> РЈРЎРќ 6%<br>
+            <input type="radio" name="nalog_system" value="РЈРЎРќ 15%" <? if($_POST["nalog_system"]=="РЈРЎРќ 15%") echo "checked";?>> РЈРЎРќ 15%<br>
+            <input type="radio" name="nalog_system" value="РќРµ Р·РЅР°СЋ(С‚СЂРµР±СѓРµС‚СЃСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ)" <? if($_POST["nalog_system"]=="РќРµ Р·РЅР°СЋ(С‚СЂРµР±СѓРµС‚СЃСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ)") echo "checked";?>> РќРµ Р·РЅР°СЋ(С‚СЂРµР±СѓРµС‚СЃСЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ)<br>
             </p>
             
             
            
-           <p class="form-input"><span class="form-input-title">* Учредители:</span><br>
+           <p class="form-input"><span class="form-input-title">* РЈС‡СЂРµРґРёС‚РµР»Рё:</span><br>
            <ol style="text-align:left">
            <? for($i=1;$i<=$_POST["u4index"];$i++)
 		   {?>
@@ -93,11 +93,11 @@ foreach($_POST as $key=>$value)
            
            
            
-           <p class="form-input"><span class="form-input-title">* Генеральный директор:</span><br>
-           <input type="radio" name="gen_director_type" value="Выберу из учредителей" <? if(!isset($_POST["gen_director_type"]) or $_POST["gen_director_type"]=="Выберу из учредителей") echo "checked";?> onClick="document.getElementById('gd_select_list').style.display='inline-block';document.getElementById('gd_new_person').style.display='none';"> Выберу из учредителей<br>
-           <input type="radio" name="gen_director_type" value="Новое лицо" onClick="document.getElementById('gd_select_list').style.display='none';document.getElementById('gd_new_person').style.display='block';" <? if($_POST["gen_director_type"]=="Новое лицо") echo "checked";?>> Новое лицо<br>
+           <p class="form-input"><span class="form-input-title">* Р“РµРЅРµСЂР°Р»СЊРЅС‹Р№ РґРёСЂРµРєС‚РѕСЂ:</span><br>
+           <input type="radio" name="gen_director_type" value="Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№" <? if(!isset($_POST["gen_director_type"]) or $_POST["gen_director_type"]=="Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№") echo "checked";?> onClick="document.getElementById('gd_select_list').style.display='inline-block';document.getElementById('gd_new_person').style.display='none';"> Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№<br>
+           <input type="radio" name="gen_director_type" value="РќРѕРІРѕРµ Р»РёС†Рѕ" onClick="document.getElementById('gd_select_list').style.display='none';document.getElementById('gd_new_person').style.display='block';" <? if($_POST["gen_director_type"]=="РќРѕРІРѕРµ Р»РёС†Рѕ") echo "checked";?>> РќРѕРІРѕРµ Р»РёС†Рѕ<br>
 
-            <span id="gd_select_list" style="display:<? echo $_POST["gen_director_type"]=="Новое лицо"? "none":"inline-block";?>;">
+            <span id="gd_select_list" style="display:<? echo $_POST["gen_director_type"]=="РќРѕРІРѕРµ Р»РёС†Рѕ"? "none":"inline-block";?>;">
                 <span class="f-body"><span class="f-left"><span class="f-right">
                 <select name="gen_director" style="width:200px;">
                 <? for($i=1;$i<=$_POST["u4index"];$i++)
@@ -110,56 +110,56 @@ foreach($_POST as $key=>$value)
             
 
 <? /////////////////////// Gen dir new person ////////////////////////////////////////////////////?>            
-			<div id="gd_new_person" style="display:<? echo $_POST["gen_director_type"]!="Новое лицо"? "none":"block";?>">
-             <p class="form-input">* ФИО:<br>
+			<div id="gd_new_person" style="display:<? echo $_POST["gen_director_type"]!="РќРѕРІРѕРµ Р»РёС†Рѕ"? "none":"block";?>">
+             <p class="form-input">* Р¤РРћ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_name" style="width:400px;" maxlength="40" value="<? echo @$_POST["gd_name"];?>"></span></span></span></p>
 
- <p class="form-input">Доля в уставном капитале, %:<br>
+ <p class="form-input">Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ, %:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_dola" style="width:400px;" maxlength="40" value="<? echo @$_POST["gd_dola"];?>"></span></span></span></p>
 
- <p class="form-input">Телефон:<br>
+ <p class="form-input">РўРµР»РµС„РѕРЅ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_phone" style="width:400px;" maxlength="40" value="<? echo @$_POST["gd_phone"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px">Серия паспорта:<br>
+ <p class="form-input" style="float:left; width:150px">РЎРµСЂРёСЏ РїР°СЃРїРѕСЂС‚Р°:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_passportserie" style="width:120px;" maxlength="10" value="<? echo @$_POST["gd_passportserie"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Номер паспорта:<br>
+ <p class="form-input" style="float:left; width:150px;">РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_passportnumber" style="width:120px;" maxlength="10" value="<? echo @$_POST["gd_passportnumber"];?>"></span></span></span></p>
 
- <p class="form-input" style="clear:both">Кем выдан (полностью, как в паспорте):<br>
+ <p class="form-input" style="clear:both">РљРµРј РІС‹РґР°РЅ (РїРѕР»РЅРѕСЃС‚СЊСЋ, РєР°Рє РІ РїР°СЃРїРѕСЂС‚Рµ):<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_passport_vidan" style="width:400px;" maxlength="40" value="<? echo @$_POST["gd_passport_vidan"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Когда выдан:<br>
+ <p class="form-input" style="float:left; width:150px;">РљРѕРіРґР° РІС‹РґР°РЅ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_passport_date" style="width:120px;" maxlength="40" value="<? echo @$_POST["gd_passport_date"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Код подразделения:<br>
+ <p class="form-input" style="float:left; width:150px;">РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_passport_code" style="width:120px;" maxlength="40" value="<? echo @$_POST["gd_passport_code"];?>"></span></span></span></p>
 
- <p class="form-input" style="clear:left; float:left; width:150px;">Дата рождения:<br>
+ <p class="form-input" style="clear:left; float:left; width:150px;">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_burndate" style="width:120px;" maxlength="40" value="<? echo @$_POST["gd_burndate"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Место рождения:<br>
+ <p class="form-input" style="float:left; width:150px;">РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_burnplace" style="width:120px;" maxlength="40" value="<? echo @$_POST["gd_burnplace"];?>"></span></span></span></p>
 
 
 <p style="clear:left;">&nbsp;</p>
- <p class="form-input">Адрес прописки или регистрации:<br> </p>
-<p class="form-input" style="float:left;width:150px"> Индекс:<br>
+ <p class="form-input">РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё РёР»Рё СЂРµРіРёСЃС‚СЂР°С†РёРё:<br> </p>
+<p class="form-input" style="float:left;width:150px"> РРЅРґРµРєСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_index" style="width:120px;" maxlength="10" value="<? echo @$_POST["gd_adres_index"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:250px">Город:<br>
+<p class="form-input" style="float:left;width:250px">Р“РѕСЂРѕРґ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_city" style="width:200px;" maxlength="40" value="<? echo @$_POST["gd_adres_city"];?>"></span></span></span></p>
             
-<p class="form-input" style="clear:left;">Улица:<br>
+<p class="form-input" style="clear:left;">РЈР»РёС†Р°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_street" style="width:400px;" maxlength="40" value="<? echo @$_POST["gd_adres_street"];?>"></span></span></span></p>
             
-<p class="form-input"  style="float:left;width:100px">Дом:<br>
+<p class="form-input"  style="float:left;width:100px">Р”РѕРј:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_home" style="width:80px;" maxlength="10" value="<? echo @$_POST["gd_adres_home"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Корпус:<br>
+<p class="form-input" style="float:left;width:100px">РљРѕСЂРїСѓСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_corp" style="width:80px;" maxlength="10" value="<? echo @$_POST["gd_adres_corp"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Квартира:<br>
+<p class="form-input" style="float:left;width:100px">РљРІР°СЂС‚РёСЂР°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="gd_adres_flat" style="width:80px;" maxlength="10" value="<? echo @$_POST["gd_adres_flat"];?>"></span></span></span></p>
    <p style="clear:both">&nbsp;</p>   
             </div>
@@ -168,12 +168,12 @@ foreach($_POST as $key=>$value)
            
            
            
-           <p class="form-input"><span class="form-input-title">* Главный бухгалтер:</span><br>
-             <input type="radio" name="glavbuh_type" value="Выберу из учредителей" <? if(!isset($_POST["glavbuh_type"]) or $_POST["glavbuh_type"]=="Выберу из учредителей") echo "checked";?> onClick="document.getElementById('glbuh_select_list').style.display='inline-block';document.getElementById('glbuh_new_person').style.display='none';"> Выберу из учредителей<br>
-           <input type="radio" name="glavbuh_type" value="Новое лицо" <? if($_POST["glavbuh_type"]=="Новое лицо") echo "checked";?> onClick="document.getElementById('glbuh_select_list').style.display='none';document.getElementById('glbuh_new_person').style.display='block';"> Новое лицо<br>
+           <p class="form-input"><span class="form-input-title">* Р“Р»Р°РІРЅС‹Р№ Р±СѓС…РіР°Р»С‚РµСЂ:</span><br>
+             <input type="radio" name="glavbuh_type" value="Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№" <? if(!isset($_POST["glavbuh_type"]) or $_POST["glavbuh_type"]=="Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№") echo "checked";?> onClick="document.getElementById('glbuh_select_list').style.display='inline-block';document.getElementById('glbuh_new_person').style.display='none';"> Р’С‹Р±РµСЂСѓ РёР· СѓС‡СЂРµРґРёС‚РµР»РµР№<br>
+           <input type="radio" name="glavbuh_type" value="РќРѕРІРѕРµ Р»РёС†Рѕ" <? if($_POST["glavbuh_type"]=="РќРѕРІРѕРµ Р»РёС†Рѕ") echo "checked";?> onClick="document.getElementById('glbuh_select_list').style.display='none';document.getElementById('glbuh_new_person').style.display='block';"> РќРѕРІРѕРµ Р»РёС†Рѕ<br>
 
 
-			<span id="glbuh_select_list" style="display:<? echo $_POST["glavbuh_type"]=="Новое лицо"? "none":"inline-block";?>;">
+			<span id="glbuh_select_list" style="display:<? echo $_POST["glavbuh_type"]=="РќРѕРІРѕРµ Р»РёС†Рѕ"? "none":"inline-block";?>;">
             <span class="f-body"><span class="f-left"><span class="f-right">
             <select name="glavbuh" style="width:200px;">
              <? for($i=1;$i<=$_POST["u4index"];$i++)
@@ -186,56 +186,56 @@ foreach($_POST as $key=>$value)
             
             
 <? /////////////////////// Glavbuh new person ////////////////////////////////////////////////////?>            
-			<div id="glbuh_new_person" style="display:<? echo $_POST["glavbuh_type"]!="Новое лицо"? "none":"block";?>;">
-             <p class="form-input">* ФИО:<br>
+			<div id="glbuh_new_person" style="display:<? echo $_POST["glavbuh_type"]!="РќРѕРІРѕРµ Р»РёС†Рѕ"? "none":"block";?>;">
+             <p class="form-input">* Р¤РРћ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_name" style="width:400px;" maxlength="40" value="<? echo @$_POST["glbuh_name"];?>"></span></span></span></p>
 
- <p class="form-input">Доля в уставном капитале, %:<br>
+ <p class="form-input">Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ, %:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_dola" style="width:400px;" maxlength="40" value="<? echo @$_POST["glbuh_dola"];?>"></span></span></span></p>
 
- <p class="form-input">Телефон:<br>
+ <p class="form-input">РўРµР»РµС„РѕРЅ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_phone" style="width:400px;" maxlength="40" value="<? echo @$_POST["glbuh_phone"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px">Серия паспорта:<br>
+ <p class="form-input" style="float:left; width:150px">РЎРµСЂРёСЏ РїР°СЃРїРѕСЂС‚Р°:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_passportserie" style="width:120px;" maxlength="10" value="<? echo @$_POST["glbuh_passportserie"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Номер паспорта:<br>
+ <p class="form-input" style="float:left; width:150px;">РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_passportnumber" style="width:120px;" maxlength="10" value="<? echo @$_POST["glbuh_passportnumber"];?>"></span></span></span></p>
 
- <p class="form-input" style="clear:both">Кем выдан (полностью, как в паспорте):<br>
+ <p class="form-input" style="clear:both">РљРµРј РІС‹РґР°РЅ (РїРѕР»РЅРѕСЃС‚СЊСЋ, РєР°Рє РІ РїР°СЃРїРѕСЂС‚Рµ):<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_passport_vidan" style="width:400px;" maxlength="40" value="<? echo @$_POST["glbuh_passport_vidan"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Когда выдан:<br>
+ <p class="form-input" style="float:left; width:150px;">РљРѕРіРґР° РІС‹РґР°РЅ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_passport_date" style="width:120px;" maxlength="40" value="<? echo @$_POST["glbuh_passport_date"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Код подразделения:<br>
+ <p class="form-input" style="float:left; width:150px;">РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_passport_code" style="width:120px;" maxlength="40" value="<? echo @$_POST["glbuh_passport_code"];?>"></span></span></span></p>
 
- <p class="form-input" style="clear:left; float:left; width:150px;">Дата рождения:<br>
+ <p class="form-input" style="clear:left; float:left; width:150px;">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_burndate" style="width:120px;" maxlength="40" value="<? echo @$_POST["glbuh_burndate"];?>"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;">Место рождения:<br>
+ <p class="form-input" style="float:left; width:150px;">РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ:<br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_burnplace" style="width:120px;" maxlength="40" value="<? echo @$_POST["glbuh_burnplace"];?>"></span></span></span></p>
 
 
 <p style="clear:left;">&nbsp;</p>
- <p class="form-input">Адрес прописки или регистрации:<br> </p>
-<p class="form-input" style="float:left;width:150px"> Индекс:<br>
+ <p class="form-input">РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё РёР»Рё СЂРµРіРёСЃС‚СЂР°С†РёРё:<br> </p>
+<p class="form-input" style="float:left;width:150px"> РРЅРґРµРєСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_index" style="width:120px;" maxlength="10" value="<? echo @$_POST["glbuh_adres_index"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:250px">Город:<br>
+<p class="form-input" style="float:left;width:250px">Р“РѕСЂРѕРґ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_city" style="width:200px;" maxlength="40" value="<? echo @$_POST["glbuh_adres_city"];?>"></span></span></span></p>
             
-<p class="form-input" style="clear:left;">Улица:<br>
+<p class="form-input" style="clear:left;">РЈР»РёС†Р°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_street" style="width:400px;" maxlength="40" value="<? echo @$_POST["glbuh_adres_street"];?>"></span></span></span></p>
             
-<p class="form-input"  style="float:left;width:100px">Дом:<br>
+<p class="form-input"  style="float:left;width:100px">Р”РѕРј:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_home" style="width:80px;" maxlength="10" value="<? echo @$_POST["glbuh_adres_home"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Корпус:<br>
+<p class="form-input" style="float:left;width:100px">РљРѕСЂРїСѓСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_corp" style="width:80px;" maxlength="10" value="<? echo @$_POST["glbuh_adres_corp"];?>"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Квартира:<br>
+<p class="form-input" style="float:left;width:100px">РљРІР°СЂС‚РёСЂР°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="glbuh_adres_flat" style="width:80px;" maxlength="10" value="<? echo @$_POST["glbuh_adres_flat"];?>"></span></span></span></p>
    <p style="clear:both">&nbsp;</p>   
             </div>
@@ -244,34 +244,34 @@ foreach($_POST as $key=>$value)
             
             
            
-           <p class="form-input"><span class="form-input-title">* Планируемая деятельность:</span><br>
+           <p class="form-input"><span class="form-input-title">* РџР»Р°РЅРёСЂСѓРµРјР°СЏ РґРµСЏС‚РµР»СЊРЅРѕСЃС‚СЊ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="deyatelnost" style="width:400px;" maxlength="400" value="<? echo @$_POST["deyatelnost"];?>"></span></span></span></p>
            
            
-           <p class="form-input"><span class="form-input-title">Заказать Печать:</span><br>
-           <input type="radio" name="pe4at" value="Простая(в подарок)" <? if(@$_POST["pe4at"]=="Простая(в подарок)") echo "checked";?>> Простая(в подарок)<br>
-           <input type="radio" name="pe4at" value="Автомат" <? if(@$_POST["pe4at"]=="Автомат") echo "checked";?>> Автомат<br>
-           <input type="radio" name="pe4at" value="Компакт-автомат" <? if(@$_POST["pe4at"]=="Компакт-автомат") echo "checked";?>> Компакт-автомат<br>
-           <input type="radio" name="pe4at" value="Не требуется" <? if(@$_POST["pe4at"]=="Не требуется") echo "checked";?>> Не требуется
+           <p class="form-input"><span class="form-input-title">Р—Р°РєР°Р·Р°С‚СЊ РџРµС‡Р°С‚СЊ:</span><br>
+           <input type="radio" name="pe4at" value="РџСЂРѕСЃС‚Р°СЏ(РІ РїРѕРґР°СЂРѕРє)" <? if(@$_POST["pe4at"]=="РџСЂРѕСЃС‚Р°СЏ(РІ РїРѕРґР°СЂРѕРє)") echo "checked";?>> РџСЂРѕСЃС‚Р°СЏ(РІ РїРѕРґР°СЂРѕРє)<br>
+           <input type="radio" name="pe4at" value="РђРІС‚РѕРјР°С‚" <? if(@$_POST["pe4at"]=="РђРІС‚РѕРјР°С‚") echo "checked";?>> РђРІС‚РѕРјР°С‚<br>
+           <input type="radio" name="pe4at" value="РљРѕРјРїР°РєС‚-Р°РІС‚РѕРјР°С‚" <? if(@$_POST["pe4at"]=="РљРѕРјРїР°РєС‚-Р°РІС‚РѕРјР°С‚") echo "checked";?>> РљРѕРјРїР°РєС‚-Р°РІС‚РѕРјР°С‚<br>
+           <input type="radio" name="pe4at" value="РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ" <? if(@$_POST["pe4at"]=="РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ") echo "checked";?>> РќРµ С‚СЂРµР±СѓРµС‚СЃСЏ
            </p>
            
            
-           <p class="form-input"><span class="form-input-title">Из каких источников узнали о нас?</span><br>
-           <input type="radio" name="isto4nik" value="Интернет" <? if(@$_POST["isto4nik"]=="Интернет") echo "checked";?>> Интернет<br>
-           <input type="radio" name="isto4nik" value="Флаеры" <? if(@$_POST["isto4nik"]=="Флаеры") echo "checked";?>> Флаеры<br>
-           <input type="radio" name="isto4nik" value="По рекомендации" <? if(@$_POST["isto4nik"]=="По рекомендации") echo "checked";?>> По рекомендации<br>
-           <input type="radio" name="isto4nik" value="Иное" <? if(@$_POST["isto4nik"]=="Иное") echo "checked";?>> Иное
+           <p class="form-input"><span class="form-input-title">РР· РєР°РєРёС… РёСЃС‚РѕС‡РЅРёРєРѕРІ СѓР·РЅР°Р»Рё Рѕ РЅР°СЃ?</span><br>
+           <input type="radio" name="isto4nik" value="РРЅС‚РµСЂРЅРµС‚" <? if(@$_POST["isto4nik"]=="РРЅС‚РµСЂРЅРµС‚") echo "checked";?>> РРЅС‚РµСЂРЅРµС‚<br>
+           <input type="radio" name="isto4nik" value="Р¤Р»Р°РµСЂС‹" <? if(@$_POST["isto4nik"]=="Р¤Р»Р°РµСЂС‹") echo "checked";?>> Р¤Р»Р°РµСЂС‹<br>
+           <input type="radio" name="isto4nik" value="РџРѕ СЂРµРєРѕРјРµРЅРґР°С†РёРё" <? if(@$_POST["isto4nik"]=="РџРѕ СЂРµРєРѕРјРµРЅРґР°С†РёРё") echo "checked";?>> РџРѕ СЂРµРєРѕРјРµРЅРґР°С†РёРё<br>
+           <input type="radio" name="isto4nik" value="РРЅРѕРµ" <? if(@$_POST["isto4nik"]=="РРЅРѕРµ") echo "checked";?>> РРЅРѕРµ
            </p>
            
            
                 
-           <p class="form-input"><span class="form-input-title">Комментарий:</span><br>
+           <p class="form-input"><span class="form-input-title">РљРѕРјРјРµРЅС‚Р°СЂРёР№:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="comment" style="width:400px;" maxlength="400" value="<? echo @$_POST["comment"];?>"></span></span></span></p>
            
-     <p class="form-input"><span class="form-input-title">* Ваш e-mail:</span><br>
+     <p class="form-input"><span class="form-input-title">* Р’Р°С€ e-mail:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="email" style="width:400px;" maxlength="40" value="<? echo @$_POST["email"];?>"></span></span></span></p>
            
-     <p class="form-input"><span class="form-input-title">* Ваш телефон:</span><br>
+     <p class="form-input"><span class="form-input-title">* Р’Р°С€ С‚РµР»РµС„РѕРЅ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="phone" style="width:400px;" maxlength="40" value="<? echo @$_POST["phone"];?>"></span></span></span></p>
            
             

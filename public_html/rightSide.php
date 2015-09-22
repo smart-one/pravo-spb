@@ -1,24 +1,24 @@
 <div class="rightSide">
 
 	<a class="phone" href="/">&nbsp;</a>
-<h3>Адреса офисов в СПб:</h3>
+<h3>РђРґСЂРµСЃР° РѕС„РёСЃРѕРІ РІ РЎРџР±:</h3>
 <ul style="padding-left:0px; list-style:none; font-style:italic">
-    <li>Московский пр. д.2</li>
-    <li>Ленинский пр. д. 153</li>
-    <li>Каменноостровский д. 39</li>
-    <li>Косыгина д. 21</li>
+    <li>РњРѕСЃРєРѕРІСЃРєРёР№ РїСЂ. Рґ.2</li>
+    <li>Р›РµРЅРёРЅСЃРєРёР№ РїСЂ. Рґ. 153</li>
+    <li>РљР°РјРµРЅРЅРѕРѕСЃС‚СЂРѕРІСЃРєРёР№ Рґ. 39</li>
+    <li>РљРѕСЃС‹РіРёРЅР° Рґ. 21</li>
 </ul>
 
 
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/15_4" title="Бесплатный выезд курьера">КУРЬЕР БЕСПЛАТНО!</a></h3>
+<h3><a href="http://pravo-spb.net/ur/15_4" title="Р‘РµСЃРїР»Р°С‚РЅС‹Р№ РІС‹РµР·Рґ РєСѓСЂСЊРµСЂР°">РљРЈР Р¬Р•Р  Р‘Р•РЎРџР›РђРўРќРћ!</a></h3>
    
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/20_2" title="Вопросы по Ликвидации ООО">FAQ по Ликвидации </a></h3>
+<h3><a href="http://pravo-spb.net/ur/20_2" title="Р’РѕРїСЂРѕСЃС‹ РїРѕ Р›РёРєРІРёРґР°С†РёРё РћРћРћ">FAQ РїРѕ Р›РёРєРІРёРґР°С†РёРё </a></h3>
 <hr/>
-<h3><a href="http://pravo-spb.net/ur/21_3" title="Вопросы по готовым фирмам">FAQ по покупке готовых фирм</a></h3>
+<h3><a href="http://pravo-spb.net/ur/21_3" title="Р’РѕРїСЂРѕСЃС‹ РїРѕ РіРѕС‚РѕРІС‹Рј С„РёСЂРјР°Рј">FAQ РїРѕ РїРѕРєСѓРїРєРµ РіРѕС‚РѕРІС‹С… С„РёСЂРј</a></h3>
 <hr/>
-<h3><a href="http://pravo-spb.net/ring" title="бесплатная консультация юриста">КОНСУЛЬТАЦИЯ ЮРИСТА</a></h3><hr/>
+<h3><a href="http://pravo-spb.net/ring" title="Р±РµСЃРїР»Р°С‚РЅР°СЏ РєРѕРЅСЃСѓР»СЊС‚Р°С†РёСЏ СЋСЂРёСЃС‚Р°">РљРћРќРЎРЈР›Р¬РўРђР¦РРЇ Р®Р РРЎРўРђ</a></h3><hr/>
 	<form class="search" action="/search" method="post">
 
     	<input type="text" name="sstring" value="" class="input">
@@ -41,25 +41,25 @@
 
         <input type="hidden" name="type" value="call">
 
-        <p>Ваше имя * <input type="text" name="fio" class="input"></p>
+        <p>Р’Р°С€Рµ РёРјСЏ * <input type="text" name="fio" class="input"></p>
 
-        <p>Ваш телефон * <input type="text" name="phone" class="input"></p>
+        <p>Р’Р°С€ С‚РµР»РµС„РѕРЅ * <input type="text" name="phone" class="input"></p>
 
-        <p>Тематика обращения * 
+        <p>РўРµРјР°С‚РёРєР° РѕР±СЂР°С‰РµРЅРёСЏ * 
 
             <select name="theme" style="width:150px" >
 
-                <option value="">Выберите из списка</option>
+                <option value="">Р’С‹Р±РµСЂРёС‚Рµ РёР· СЃРїРёСЃРєР°</option>
 
-                <option value="Регистрация фирм">Регистрация фирм</option>
+                <option value="Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРј">Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРј</option>
 
-                <option value="Юридические услуги фирмам">Юридические услуги фирмам</option>
+                <option value="Р®СЂРёРґРёС‡РµСЃРєРёРµ СѓСЃР»СѓРіРё С„РёСЂРјР°Рј">Р®СЂРёРґРёС‡РµСЃРєРёРµ СѓСЃР»СѓРіРё С„РёСЂРјР°Рј</option>
 
-                <option value="Юридические услуги гражданам">Юридические услуги гражданам</option>
+                <option value="Р®СЂРёРґРёС‡РµСЃРєРёРµ СѓСЃР»СѓРіРё РіСЂР°Р¶РґР°РЅР°Рј">Р®СЂРёРґРёС‡РµСЃРєРёРµ СѓСЃР»СѓРіРё РіСЂР°Р¶РґР°РЅР°Рј</option>
 
-                <option value="Бухгалтерские услуги">Бухгалтерские услуги</option>
+                <option value="Р‘СѓС…РіР°Р»С‚РµСЂСЃРєРёРµ СѓСЃР»СѓРіРё">Р‘СѓС…РіР°Р»С‚РµСЂСЃРєРёРµ СѓСЃР»СѓРіРё</option>
 
-                <option value="Другое">Другое</option>
+                <option value="Р”СЂСѓРіРѕРµ">Р”СЂСѓРіРѕРµ</option>
 
 
 

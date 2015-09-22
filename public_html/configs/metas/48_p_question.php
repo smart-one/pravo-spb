@@ -1,1 +1,1 @@
-<script src=\"/moduls/myScripts/myValidForm.js\"><\/script><meta http-equiv="description" name="description" content="÷åðåç ôîðìó íà ñàéòå ìîæíî çàäàòü âîïðîñ þðèñòó îíëàéí">
+<script src=\"/moduls/myScripts/myValidForm.js\"><\/script><meta http-equiv="description" name="description" content="Ñ‡ÐµÑ€ÐµÐ· Ñ„Ð¾Ñ€Ð¼Ñƒ Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ Ð¼Ð¾Ð¶Ð½Ð¾ Ð·Ð°Ð´Ð°Ñ‚ÑŒ Ð²Ð¾Ð¿Ñ€Ð¾Ñ ÑŽÑ€Ð¸ÑÑ‚Ñƒ Ð¾Ð½Ð»Ð°Ð¹Ð½">

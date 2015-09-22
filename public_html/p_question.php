@@ -5,25 +5,25 @@
 <div class="form-bg">
 	<div class="form-top">
     	<div class="form-bottom">
-        	<div class="form-header">Задать вопрос</div>
+        	<div class="form-header">Р—Р°РґР°С‚СЊ РІРѕРїСЂРѕСЃ</div>
 
 
             <form method="post" action="/sender.php" onSubmit="return myValidForm(this,['email','fio','phone','info']);">
             <input type="hidden" name="type" value="question">
            
              
-            <p class="form-input"><span class="form-input-title">* Вас зовут:</span><br>
+            <p class="form-input"><span class="form-input-title">* Р’Р°СЃ Р·РѕРІСѓС‚:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="fio" style="width:400px;" maxlength="40"></span></span></span></p>
             
-            <p class="form-input"><span class="form-input-title">* Ваш контактный e-mail</span><br>
+            <p class="form-input"><span class="form-input-title">* Р’Р°С€ РєРѕРЅС‚Р°РєС‚РЅС‹Р№ e-mail</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="email" style="width:400px;" maxlength="30"></span></span></span></p>
             
               
-            <p class="form-input"><span class="form-input-title">* Ваш контактный телефон:</span><br>
+            <p class="form-input"><span class="form-input-title">* Р’Р°С€ РєРѕРЅС‚Р°РєС‚РЅС‹Р№ С‚РµР»РµС„РѕРЅ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="phone" style="width:400px;" maxlength="10"></span></span></span></p>
              
                       
-            <p class="form-input"><span class="form-input-title">* Ваш вопрос:</span><br>
+            <p class="form-input"><span class="form-input-title">* Р’Р°С€ РІРѕРїСЂРѕСЃ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="info" style="width:400px;"
              ></span></span></span></p>
             

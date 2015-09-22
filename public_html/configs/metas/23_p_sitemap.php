@@ -1,1 +1,1 @@
-<meta http-equiv="description" name="description" content="Êàðòà ñàéòà">
+<meta http-equiv="description" name="description" content="ÐšÐ°Ñ€Ñ‚Ð° ÑÐ°Ð¹Ñ‚Ð°">

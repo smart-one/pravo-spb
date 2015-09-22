@@ -7,7 +7,7 @@
 <div class="form-bg">
 	<div class="form-top">
     	<div class="form-bottom">
-        	<div class="form-header">Добавить физическое лицо как учредителя</div>
+        	<div class="form-header">Р”РѕР±Р°РІРёС‚СЊ С„РёР·РёС‡РµСЃРєРѕРµ Р»РёС†Рѕ РєР°Рє СѓС‡СЂРµРґРёС‚РµР»СЏ</div>
             
 <? 
 	$u4index = $_POST["u4index"] = ($_POST["u4index"]>0)? ($_POST["u4index"]+1) : 1;
@@ -22,55 +22,55 @@
 	}
 ?>
 
-	 <p class="form-input"><span class="form-input-title">* ФИО:</span><br>
+	 <p class="form-input"><span class="form-input-title">* Р¤РРћ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_name_<? echo $u4index;?>" style="width:400px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input"><span class="form-input-title">Доля в уставном капитале, %:</span><br>
+ <p class="form-input"><span class="form-input-title">Р”РѕР»СЏ РІ СѓСЃС‚Р°РІРЅРѕРј РєР°РїРёС‚Р°Р»Рµ, %:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_dola_<? echo $u4index;?>" style="width:400px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input"><span class="form-input-title">Телефон:</span><br>
+ <p class="form-input"><span class="form-input-title">РўРµР»РµС„РѕРЅ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_phone_<? echo $u4index;?>" style="width:400px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px"><span class="form-input-title">Серия паспорта:</span><br>
+ <p class="form-input" style="float:left; width:150px"><span class="form-input-title">РЎРµСЂРёСЏ РїР°СЃРїРѕСЂС‚Р°:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_passportserie_<? echo $u4index;?>" style="width:120px;" maxlength="10"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">Номер паспорта:</span><br>
+ <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">РќРѕРјРµСЂ РїР°СЃРїРѕСЂС‚Р°:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_passportnumber_<? echo $u4index;?>" style="width:120px;" maxlength="10"></span></span></span></p>
 
- <p class="form-input" style="clear:both"><span class="form-input-title">Кем выдан (полностью, как в паспорте):</span><br>
+ <p class="form-input" style="clear:both"><span class="form-input-title">РљРµРј РІС‹РґР°РЅ (РїРѕР»РЅРѕСЃС‚СЊСЋ, РєР°Рє РІ РїР°СЃРїРѕСЂС‚Рµ):</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_passport_vidan_<? echo $u4index;?>" style="width:400px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">Когда выдан:</span><br>
+ <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">РљРѕРіРґР° РІС‹РґР°РЅ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_passport_date_<? echo $u4index;?>" style="width:120px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">Код подразделения:</span><br>
+ <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">РљРѕРґ РїРѕРґСЂР°Р·РґРµР»РµРЅРёСЏ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_passport_code_<? echo $u4index;?>" style="width:120px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input" style="clear:left; float:left; width:150px;"><span class="form-input-title">Дата рождения:</span><br>
+ <p class="form-input" style="clear:left; float:left; width:150px;"><span class="form-input-title">Р”Р°С‚Р° СЂРѕР¶РґРµРЅРёСЏ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_burndate_<? echo $u4index;?>" style="width:120px;" maxlength="40"></span></span></span></p>
 
- <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">Место рождения:</span><br>
+ <p class="form-input" style="float:left; width:150px;"><span class="form-input-title">РњРµСЃС‚Рѕ СЂРѕР¶РґРµРЅРёСЏ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_burnplace_<? echo $u4index;?>" style="width:120px;" maxlength="40"></span></span></span></p>
 
 
 <p style="clear:left;">&nbsp;</p>
- <p class="form-input"><span class="form-input-title"><big>Адрес прописки или регистрации:</big></span><br> </p>
-<p class="form-input" style="float:left;width:150px"> Индекс:<br>
+ <p class="form-input"><span class="form-input-title"><big>РђРґСЂРµСЃ РїСЂРѕРїРёСЃРєРё РёР»Рё СЂРµРіРёСЃС‚СЂР°С†РёРё:</big></span><br> </p>
+<p class="form-input" style="float:left;width:150px"> РРЅРґРµРєСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_index_<? echo $u4index;?>" style="width:120px;" maxlength="10"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:250px">Город:<br>
+<p class="form-input" style="float:left;width:250px">Р“РѕСЂРѕРґ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_city_<? echo $u4index;?>" style="width:200px;" maxlength="40"></span></span></span></p>
             
-<p class="form-input" style="clear:left;">Улица:<br>
+<p class="form-input" style="clear:left;">РЈР»РёС†Р°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_street_<? echo $u4index;?>" style="width:400px;" maxlength="40"></span></span></span></p>
             
-<p class="form-input"  style="float:left;width:100px">Дом:<br>
+<p class="form-input"  style="float:left;width:100px">Р”РѕРј:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_home_<? echo $u4index;?>" style="width:80px;" maxlength="10"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Корпус:<br>
+<p class="form-input" style="float:left;width:100px">РљРѕСЂРїСѓСЃ:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_corp_<? echo $u4index;?>" style="width:80px;" maxlength="10"></span></span></span></p>
             
-<p class="form-input" style="float:left;width:100px">Квартира:<br>
+<p class="form-input" style="float:left;width:100px">РљРІР°СЂС‚РёСЂР°:<br>
 			<span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="u4_adres_flat_<? echo $u4index;?>" style="width:80px;" maxlength="10"></span></span></span></p>
    <p style="clear:both">&nbsp;</p>         
             

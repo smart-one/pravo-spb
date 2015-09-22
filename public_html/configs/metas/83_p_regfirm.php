@@ -1,1 +1,1 @@
-<meta http-equiv="description" name="description" content="Âû ìîæåòå ïîäàòü îíëàéí çàÿâêó íà ðåãèñòðàöèþ ôèðìû ïðÿìî íà ñàéòå">
+<meta http-equiv="description" name="description" content="Ð’Ñ‹ Ð¼Ð¾Ð¶ÐµÑ‚Ðµ Ð¿Ð¾Ð´Ð°Ñ‚ÑŒ Ð¾Ð½Ð»Ð°Ð¹Ð½ Ð·Ð°ÑÐ²ÐºÑƒ Ð½Ð° Ñ€ÐµÐ³Ð¸ÑÑ‚Ñ€Ð°Ñ†Ð¸ÑŽ Ñ„Ð¸Ñ€Ð¼Ñ‹ Ð¿Ñ€ÑÐ¼Ð¾ Ð½Ð° ÑÐ°Ð¹Ñ‚Ðµ">

@@ -1,8 +1,8 @@
 // JavaScript Document
-// 	Аналоги PHP функций
+// 	РђРЅР°Р»РѕРіРё PHP С„СѓРЅРєС†РёР№
 //
-// 	Последняя сборка 01062009
-//	Содержит:
+// 	РџРѕСЃР»РµРґРЅСЏСЏ СЃР±РѕСЂРєР° 01062009
+//	РЎРѕРґРµСЂР¶РёС‚:
 
 //	basename(path, suffix)
 //	explode( delimiter, string )
@@ -13,7 +13,7 @@
 
 
 
-//Возвращает название файла без пути
+//Р’РѕР·РІСЂР°С‰Р°РµС‚ РЅР°Р·РІР°РЅРёРµ С„Р°Р№Р»Р° Р±РµР· РїСѓС‚Рё
 function basename(path, suffix) {
     // *     example 1: basename('/www/site/home.htm', '.htm');
     // *     returns 1: 'home'
@@ -71,7 +71,7 @@ function explode( delimiter, string )
 
 
 
-//Функция  str_replace
+//Р¤СѓРЅРєС†РёСЏ  str_replace
 function str_replace(search, replace, subject, count) 
 {
     var i = 0, j = 0, temp = '', repl = '', sl = 0, fl = 0,

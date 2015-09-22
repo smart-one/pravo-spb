@@ -1,5 +1,5 @@
-<h1>Заказать звонок</h1>
-<p>Если Вы хотите, чтобы мы сами позвонили Вам, просто оставьте заявку:</p>
+<h1>Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</h1>
+<p>Р•СЃР»Рё Р’С‹ С…РѕС‚РёС‚Рµ, С‡С‚РѕР±С‹ РјС‹ СЃР°РјРё РїРѕР·РІРѕРЅРёР»Рё Р’Р°Рј, РїСЂРѕСЃС‚Рѕ РѕСЃС‚Р°РІСЊС‚Рµ Р·Р°СЏРІРєСѓ:</p>
 
 <link rel="stylesheet" type="text/css" href="/css/form.css">
 <p>&nbsp;</p>
@@ -7,29 +7,29 @@
 <div class="form-bg">
 	<div class="form-top">
     	<div class="form-bottom">
-        	<div class="form-header">Заказать звонок</div>
+        	<div class="form-header">Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</div>
 
 
             <form method="post" action="/sender.php" onSubmit="return myValidForm(this,['fio','phone','theme']);">
             <input type="hidden" name="type" value="call">
            
              
-            <p class="form-input"><span class="form-input-title">* Как Вас зовут:</span><br>
+            <p class="form-input"><span class="form-input-title">* РљР°Рє Р’Р°СЃ Р·РѕРІСѓС‚:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="fio" style="width:400px;" maxlength="40" value="<? echo @$_POST["fio"];?>"></span></span></span></p>
             
     
-            <p class="form-input"><span class="form-input-title">* Ваш телефон:</span><br>
+            <p class="form-input"><span class="form-input-title">* Р’Р°С€ С‚РµР»РµС„РѕРЅ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right"><input type="text" name="phone" style="width:400px;" maxlength="10" value="<? echo @$_POST["phone"];?>"></span></span></span></p>
              
                       
-            <p class="form-input"><span class="form-input-title">* Тематика обращения:</span><br>
+            <p class="form-input"><span class="form-input-title">* РўРµРјР°С‚РёРєР° РѕР±СЂР°С‰РµРЅРёСЏ:</span><br>
             <span class="f-body"><span class="f-left"><span class="f-right">
              <select name="theme" style="width:400px" >
-                <option value="">Выберите из списка</option>
-                <option value="Регистрация фирм" <? if(@$_POST["theme"]=="Регистрация фирм") echo "selected";?>>Регистрация фирм</option>
-                <option value="Юридические услуги фирмам" <? if(@$_POST["theme"]=="Ликвидация фирм") echo "selected";?>>Ликвидация фирм</option>
+                <option value="">Р’С‹Р±РµСЂРёС‚Рµ РёР· СЃРїРёСЃРєР°</option>
+                <option value="Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРј" <? if(@$_POST["theme"]=="Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРј") echo "selected";?>>Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРј</option>
+                <option value="Р®СЂРёРґРёС‡РµСЃРєРёРµ СѓСЃР»СѓРіРё С„РёСЂРјР°Рј" <? if(@$_POST["theme"]=="Р›РёРєРІРёРґР°С†РёСЏ С„РёСЂРј") echo "selected";?>>Р›РёРєРІРёРґР°С†РёСЏ С„РёСЂРј</option>
                 
-                <option value="Другое" <? if(@$_POST["theme"]=="Другое") echo "selected";?>>Другое</option>
+                <option value="Р”СЂСѓРіРѕРµ" <? if(@$_POST["theme"]=="Р”СЂСѓРіРѕРµ") echo "selected";?>>Р”СЂСѓРіРѕРµ</option>
 
             </select>
             

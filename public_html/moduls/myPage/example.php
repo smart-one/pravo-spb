@@ -3,7 +3,7 @@ require_once($_SERVER['DOCUMENT_ROOT']."/configs/config.php");
 require_once $_SERVER['DOCUMENT_ROOT']."/moduls/myPage/myPageClass.php";
 
 $page=new myPage($_GET["page"]);
-$page->defaultTitle="Äîáðî ïîæàëîâàòü â ïàíåëü óïðàâëåíèÿ ñàéòîì ñïåöèàëüíî äëÿ Èðèøêè! ;)";
+$page->defaultTitle="Ð”Ð¾Ð±Ñ€Ð¾ Ð¿Ð¾Ð¶Ð°Ð»Ð¾Ð²Ð°Ñ‚ÑŒ Ð² Ð¿Ð°Ð½ÐµÐ»ÑŒ ÑƒÐ¿Ñ€Ð°Ð²Ð»ÐµÐ½Ð¸Ñ ÑÐ°Ð¹Ñ‚Ð¾Ð¼ ÑÐ¿ÐµÑ†Ð¸Ð°Ð»ÑŒÐ½Ð¾ Ð´Ð»Ñ Ð˜Ñ€Ð¸ÑˆÐºÐ¸! ;)";
 $page->titleDefinitionFile="/admin/configs/titles/titles.php";
 $page->metaDefinitionDir="/admin/configs/metas";
  ?>

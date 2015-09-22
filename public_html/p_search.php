@@ -1,5 +1,5 @@
 <div class="text">
-<h1>Поиск по сайту</h1>
+<h1>РџРѕРёСЃРє РїРѕ СЃР°Р№С‚Сѓ</h1>
 <? 
 	$_POST["stext"] = htmlspecialchars($_POST["sstring"]);
 	require_once $_SERVER['DOCUMENT_ROOT']."/moduls/search/p_search.php";?>

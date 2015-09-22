@@ -1,15 +1,15 @@
 // JavaScript Document
 
 var ua = navigator.userAgent.toLowerCase();
-// Определим Internet Explorer
+// РћРїСЂРµРґРµР»РёРј Internet Explorer
 isIE = (ua.indexOf("msie") != -1 && ua.indexOf("opera") == -1); 
 // Opera
 isOpera = (ua.indexOf("opera") != -1); 
 // Gecko = Mozilla + Firefox + Netscape
 isGecko = (ua.indexOf("gecko") != -1);
-// Safari, используется в MAC OS
+// Safari, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ MAC OS
 isSafari = (ua.indexOf("safari") != -1);
-// Konqueror, используется в UNIX-системах
+// Konqueror, РёСЃРїРѕР»СЊР·СѓРµС‚СЃСЏ РІ UNIX-СЃРёСЃС‚РµРјР°С…
 isKonqueror = (ua.indexOf("konqueror") != -1);
 
 
@@ -19,7 +19,7 @@ function openListById(theobjid)
 	var listContainer = document.getElementById(theobjid);
 	if(!listContainer) return false;
 	
-	//Если был невидим
+	//Р•СЃР»Рё Р±С‹Р» РЅРµРІРёРґРёРј
 	if(listContainer.className=="menuContainer")
 	{
 		closeAll();
@@ -65,7 +65,7 @@ function openList(obj)
 	var listContainer = (isIE)? obj.nextSibling:obj.nextSibling.nextSibling;
 	
 	//alert(obj.nextSibling.nextSibling+" - "+listContainer.className);
-	//Если был невидим
+	//Р•СЃР»Рё Р±С‹Р» РЅРµРІРёРґРёРј
 	if(listContainer.className=="menuContainer")
 	{
 		closeAll();

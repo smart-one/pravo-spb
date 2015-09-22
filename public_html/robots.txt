@@ -1,17 +1,25 @@
 User-Agent: Yandex
-
-Disallow: /cgi-bin
 
-Disallow: /configs
+
+Disallow: /cgi-bin
+
+
+Disallow: /configs
+
 
 Host: www.pravo-spb.net
 
 
-
-
-User-Agent: *	
-Disallow: /cgi-bin
+
+
+
+
+User-Agent: *	
+
+Disallow: /cgi-bin
+
 
 Disallow: /configs
-
+
+
 Sitemap: http://www.pravo-spb.net/sitemaps.xml

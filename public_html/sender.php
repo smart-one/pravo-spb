@@ -24,27 +24,27 @@ require_once $_SERVER['DOCUMENT_ROOT']."/moduls/Mail/grab_email.php";
 	$hdrs = array(
 	      'From'    => $_SERVER['SERVER_NAME']."-backForm",
 		  'To' => _ADMIN_MAIL,
-		  'Content-type' => 'text/html; charset=windows-1251',
+		  'Content-type' => 'text/html; charset=utf-8',
           'Subject' => ''
              ); 
 
 /*  Generic message */	
 if($_POST["type"] == "question")
 {
-	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Форма: Задать вопрос", "w","k")).'?=';
-	$message = "<h1>Форма: Задать вопрос</h1> ".$message;
+	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Р¤РѕСЂРјР°: Р—Р°РґР°С‚СЊ РІРѕРїСЂРѕСЃ", "w","k")).'?=';
+	$message = "<h1>Р¤РѕСЂРјР°: Р—Р°РґР°С‚СЊ РІРѕРїСЂРѕСЃ</h1> ".$message;
 }
 
 if($_POST["type"] == "call")
 {
-	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Форма: Заказать звонок", "w","k")).'?=';
-	$message = "<h1>Форма: Заказать звонок</h1>".$message;
+	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Р¤РѕСЂРјР°: Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє", "w","k")).'?=';
+	$message = "<h1>Р¤РѕСЂРјР°: Р—Р°РєР°Р·Р°С‚СЊ Р·РІРѕРЅРѕРє</h1>".$message;
 }
 
 if($_POST["type"] == "regFirm")
 {
-	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Форма: Регистрация фирмы", "w","k")).'?=';
-	$message = "<h1>Форма: Регистрация фирмы</h1>".$message;
+	$hdrs['Subject'] = '=?koi8-r?B?'.base64_encode(convert_cyr_string("Р¤РѕСЂРјР°: Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРјС‹", "w","k")).'?=';
+	$message = "<h1>Р¤РѕСЂРјР°: Р РµРіРёСЃС‚СЂР°С†РёСЏ С„РёСЂРјС‹</h1>".$message;
 }
 
 
@@ -53,7 +53,7 @@ if($_POST["type"] == "regFirm")
 
 	$mime = new Mail_mime("\r\n");
 	$mime->setHTMLBody($message); 
-	$body = $mime->get(array("html_charset"=>"windows-1251"));
+	$body = $mime->get(array("html_charset"=>"utf-8"));
 	$hdrs = $mime->headers($hdrs); 
 	
 	$status = $smtp->send(_ADMIN_MAIL, $hdrs, $body); 
@@ -70,13 +70,13 @@ if($_POST["type"] == "regFirm")
 	
 	if($status) 
 		{
-			alert("Ваше сообщение успешно отправлено!");
+			alert("Р’Р°С€Рµ СЃРѕРѕР±С‰РµРЅРёРµ СѓСЃРїРµС€РЅРѕ РѕС‚РїСЂР°РІР»РµРЅРѕ!");
 			goto($_SERVER['HTTP_REFERER']);
 		}
 
 	else 
 		{
-			alert("Сервер сообщает о невозможности отправки письма. Попробуйте повторить попытку позже.");
+			alert("РЎРµСЂРІРµСЂ СЃРѕРѕР±С‰Р°РµС‚ Рѕ РЅРµРІРѕР·РјРѕР¶РЅРѕСЃС‚Рё РѕС‚РїСЂР°РІРєРё РїРёСЃСЊРјР°. РџРѕРїСЂРѕР±СѓР№С‚Рµ РїРѕРІС‚РѕСЂРёС‚СЊ РїРѕРїС‹С‚РєСѓ РїРѕР·Р¶Рµ.");
 			goto($_SERVER['HTTP_REFERER']);
 		}
 ?>

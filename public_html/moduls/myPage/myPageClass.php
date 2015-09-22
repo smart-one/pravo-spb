@@ -1,70 +1,70 @@
 <?php 
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////   Î‡ÒÒ ÓÔÂ‰ÂÎÂÌËˇ ÒÚ‡ÌËˆ˚  /////////////////////////////////////
+//////////////////////////////////  –ö–ª–∞—Å—Å –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è —Å—Ç—Ä–∞–Ω–∏—Ü—ã  /////////////////////////////////////
 /////////////////////////////////////////////////////////////////////////////////////////////////////
-//////////////////////////////////////////////////////////   ¿‚ÚÓ: ÿÂ‚ˆÓ‚ ≈‚„ÂÌËÈ   sitespring.ru //
-//  —·ÓÍ‡ 120809
+//////////////////////////////////////////////////////////   –ê–≤—Ç–æ—Ä: –®–µ–≤—Ü–æ–≤ –ï–≤–≥–µ–Ω–∏–π   sitespring.ru //
+//  –°–±–æ—Ä–∫–∞ 120809
 //
-//	public function MyPage($src) - ÍÓÌÒÚÛÍÚÓ
-//	public function Attach() - ÔÓ‰ÍÎ˛˜‡ÂÚ ÒÚ‡ÌËˆÛ
-//	ÓÔˆËË:
+//	public function MyPage($src) - –∫–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä
+//	public function Attach() - –ø–æ–¥–∫–ª—é—á–∞–µ—Ç —Å—Ç—Ä–∞–Ω–∏—Ü—É
+//	–æ–ø—Ü–∏–∏:
 //		public $defaultPage="/head.php";
-//		public $title="¿ ÙË„ Â„Ó ÁÌ‡ÂÚ Í‡ÍÓÈ ÚËÚÎ ÚÛÚ Á‡‰‡Ú¸...";
+//		public $title="–ê —Ñ–∏–≥ –µ–≥–æ –∑–Ω–∞–µ—Ç –∫–∞–∫–æ–π —Ç–∏—Ç–ª —Ç—É—Ç –∑–∞–¥–∞—Ç—å...";
 //
-//	public function getThisPageAttributs() - ÔÓÎÛ˜‡ÂÚ ‡ÚË·ÛÚ˚ ÒÚ‡ÌËˆ˚ ËÁ Ù‡ÈÎ‡ ÓÔÂ‰ÂÎÂÌËˇ
-//	public function setMetaDefinitionDir($newDir) - ÛÒÚ‡Ì‡‚ÎË‚‡ÂÚ ‰ËÂÍÚÓË˛ „‰Â ı‡ÌˇÚ¸Òˇ ÏÂÚ‡ Ë Ù‡ÈÎ ÓÔÂ‰ÂÎÂÌËˇ == dirSrc!
-//	public function getAttributsByPageName($pageSrc) - ‚ÓÁ‚‡˘‡ÂÚ Ï‡ÒÒË‚ ‡ÚË·ÛÚÓ‚ ‰Îˇ ÒÚ‡ÌËˆ˚ ËÁ Ù‡ÈÎ‡ ÓÔÂ‰ÂÎÂÌËˇ
-//	public function setAttributsByPageName($pageSrc,$name,$title,$metas) - Á‡ÔËÒ˚‚‡ÂÚ ‡ÚË·ÛÚ˚ ÒÚ‡ÌËˆ˚
-//	ÓÔˆËË:
-//		public $createFileIfNotExist = 0; 	{ 1-ÒÓÁ‰‡Ú¸, 0 - ÌÂ ÒÓÁ‰‡‚‡Ú¸}
-// 		public $startUpText = "ÕÓ‚‡ˇ ÒÚ‡ÌËˆ‡";
+//	public function getThisPageAttributs() - –ø–æ–ª—É—á–∞–µ—Ç –∞—Ç—Ä–∏–±—É—Ç—ã —Å—Ç—Ä–∞–Ω–∏—Ü—ã –∏–∑ —Ñ–∞–π–ª–∞ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è
+//	public function setMetaDefinitionDir($newDir) - —É—Å—Ç–∞–Ω–∞–≤–ª–∏–≤–∞–µ—Ç –¥–∏—Ä–µ–∫—Ç–æ—Ä–∏—é –≥–¥–µ —Ö—Ä–∞–Ω—è—Ç—å—Å—è –º–µ—Ç–∞ –∏ —Ñ–∞–π–ª –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è == dirSrc!
+//	public function getAttributsByPageName($pageSrc) - –≤–æ–∑–≤—Ä–∞—â–∞–µ—Ç –º–∞—Å—Å–∏–≤ –∞—Ç—Ä–∏–±—É—Ç–æ–≤ –¥–ª—è —Å—Ç—Ä–∞–Ω–∏—Ü—ã –∏–∑ —Ñ–∞–π–ª–∞ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è
+//	public function setAttributsByPageName($pageSrc,$name,$title,$metas) - –∑–∞–ø–∏—Å—ã–≤–∞–µ—Ç –∞—Ç—Ä–∏–±—É—Ç—ã —Å—Ç—Ä–∞–Ω–∏—Ü—ã
+//	–æ–ø—Ü–∏–∏:
+//		public $createFileIfNotExist = 0; 	{ 1-—Å–æ–∑–¥–∞—Ç—å, 0 - –Ω–µ —Å–æ–∑–¥–∞–≤–∞—Ç—å}
+// 		public $startUpText = "–ù–æ–≤–∞—è —Å—Ç—Ä–∞–Ω–∏—Ü–∞";
 //
-//  public function delete($src) - Û‰‡ÎˇÂÚ ÒÚ‡ÌËˆÛ ËÁ Ù‡ÈÎ‡ ÓÔÂ‰ÂÎÂÌËˇ Ë ÒÓÔÛÚÒÚ‚Û˛˘ËÂ ÏÂÚ‡ Ù‡ÈÎ˚
-//	ÓÔˆËË:
-//		public $createFileIfNotExist = 0; 	{ 1-Û‰‡ÎËÚ¸, 0 - ÌÂ Û‰‡ÎˇÚ¸}
+//  public function delete($src) - —É–¥–∞–ª—è–µ—Ç —Å—Ç—Ä–∞–Ω–∏—Ü—É –∏–∑ —Ñ–∞–π–ª–∞ –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è –∏ —Å–æ–ø—É—Ç—Å—Ç–≤—É—é—â–∏–µ –º–µ—Ç–∞ —Ñ–∞–π–ª—ã
+//	–æ–ø—Ü–∏–∏:
+//		public $createFileIfNotExist = 0; 	{ 1-—É–¥–∞–ª–∏—Ç—å, 0 - –Ω–µ —É–¥–∞–ª—è—Ç—å}
 //
 //
 //
 class MyPage
 {
-	//Õ‡Á‚‡ÌËÂ ÚÂÍÛ˘ÂÈ ÒÚ‡ÌËˆ˚	
-	public $name=""; //   ŒÔËÒ‡ÌËˇ ‰Îˇ ÏÂÌÂ‰ÊÂ‡
+	//–ù–∞–∑–≤–∞–Ω–∏–µ —Ç–µ–∫—É—â–µ–π —Å—Ç—Ä–∞–Ω–∏—Ü—ã	
+	public $name=""; //   –û–ø–∏—Å–∞–Ω–∏—è –¥–ª—è –º–µ–Ω–µ–¥–∂–µ—Ä–∞
 
-	public $src=""; //‡·ÒÓÎ˛ÚÌ˚È ÔÛÚ¸
-	//œÓÎÌ˚È ÔÛÚ¸ Í Ù‡ÈÎÛ	
-	public $path=""; //ÔÓÎÌ˚È ÔÛÚ¸
-	//ÃÂÚ‡
+	public $src=""; //–∞–±—Å–æ–ª—é—Ç–Ω—ã–π –ø—É—Ç—å
+	//–ü–æ–ª–Ω—ã–π –ø—É—Ç—å –∫ —Ñ–∞–π–ª—É	
+	public $path=""; //–ø–æ–ª–Ω—ã–π –ø—É—Ç—å
+	//–ú–µ—Ç–∞
 	public $metas="";
 	
 	
 	/////////////////////////////////////////////////////////////////////////////////////////////////
-	////////////////////////////////// ŒÔˆËË  ///////////////////////////////////////////////////////
-	//—Ú‡ÌËˆ‡ ÔÓ ÛÏÓÎ˜‡ÌË˛
+	////////////////////////////////// –û–ø—Ü–∏–∏  ///////////////////////////////////////////////////////
+	//–°—Ç—Ä–∞–Ω–∏—Ü–∞ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é
 	public $defaultPage="/head.php";
-	//«‡„ÓÎÓ‚ÓÍ ÔÓ ÛÏÓÎ˜‡ÌË˛
-	public $title="ÕÂ Ì‡È‰ÂÌÓ.";
-	//ƒËÂÍÚÓËˇ „‰Â ı‡ÌˇÚÒˇ meta Á‡„ÓÎÓ‚ÍË
+	//–ó–∞–≥–æ–ª–æ–≤–æ–∫ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é
+	public $title="–ù–µ –Ω–∞–π–¥–µ–Ω–æ.";
+	//–î–∏—Ä–µ–∫—Ç–æ—Ä–∏—è –≥–¥–µ —Ö—Ä–∞–Ω—è—Ç—Å—è meta –∑–∞–≥–æ–ª–æ–≤–∫–∏
 	private $metaDefinitionDir="/configs/metas";
-	//‘‡ÈÎ ÓÔÂ‰ÂÎÂÌËˇ Ì‡ÒÚÓÂÍ ÒÚ‡ÌËˆ
+	//–§–∞–π–ª –æ–ø—Ä–µ–¥–µ–ª–µ–Ω–∏—è –Ω–∞—Å—Ç—Ä–æ–µ–∫ —Å—Ç—Ä–∞–Ω–∏—Ü
 	private $defineXMLFile="/configs/metas/define.xml";
 
 
 	public $error=false;
 	public $statusLog="";
-	//ŒÔˆËˇ: —ÓÁ‰‡Ú¸ Ù‡ÈÎ ÂÒÎË Â„Ó ÌÂÚ
+	//–û–ø—Ü–∏—è: –°–æ–∑–¥–∞—Ç—å —Ñ–∞–π–ª –µ—Å–ª–∏ –µ–≥–æ –Ω–µ—Ç
 	public $createFileIfNotExist = 0;
 	
-	public $startUpText = "ÕÓ‚‡ˇ ÒÚ‡ÌËˆ‡";
+	public $startUpText = "–ù–æ–≤–∞—è —Å—Ç—Ä–∞–Ω–∏—Ü–∞";
 	/////////////////////////////////////////////////////////////////////////////////////////////////
-	////////////////////////////////// ÃÂÚÓ‰˚ ///////////////////////////////////////////////////////
+	////////////////////////////////// –ú–µ—Ç–æ–¥—ã ///////////////////////////////////////////////////////
 
-	// ÓÌÒÚÛÍÚÓ - ÓÔÂ‰ÂÎˇÂÚ Ì‡Á‚‡ÌËÂ ÒÚ‡ÌËˆ˚
+	//–ö–æ–Ω—Å—Ç—Ä—É–∫—Ç–æ—Ä - –æ–ø—Ä–µ–¥–µ–ª—è–µ—Ç –Ω–∞–∑–≤–∞–Ω–∏–µ —Å—Ç—Ä–∞–Ω–∏—Ü—ã
 	public function MyPage($src)
 	{
 		if(empty($src))	
 		{	
 			$this->src=$this->defaultPage;
-			$this->error="—Ú‡ÌËˆ‡ ÌÂ Á‡‰‡Ì‡!";
+			$this->error="–°—Ç—Ä–∞–Ω–∏—Ü–∞ –Ω–µ –∑–∞–¥–∞–Ω–∞!";
 			return 0;
 		}
 		else
@@ -75,7 +75,7 @@ class MyPage
 	}
 	
 	
-	//œÓ‰ÍÎ˛˜‡ÂÚ ÒÚ‡ÌËˆÛ
+	//–ü–æ–¥–∫–ª—é—á–∞–µ—Ç —Å—Ç—Ä–∞–Ω–∏—Ü—É
 	public function Attach()
 	{
 		if(is_file($this->path)) 
@@ -87,29 +87,29 @@ class MyPage
 			if(is_file($_SERVER['DOCUMENT_ROOT'].$this->defaultPage)) 
 			{
 				require_once $_SERVER['DOCUMENT_ROOT'].$this->defaultPage;
-				$this->error="œÓ‰ÍÎ˛˜‡ÂÏ‡ˇ ÒÚ‡ÌËˆ‡ ÓÚÒÛÚÒÚ‚ÛÂÚ. œÓ‰ÍÎ˛˜ÂÌ‡ ÒÚ‡ÌËˆ‡ ÔÓ ÛÏÓÎ˜‡ÌË˛.";
+				$this->error="–ü–æ–¥–∫–ª—é—á–∞–µ–º–∞—è —Å—Ç—Ä–∞–Ω–∏—Ü–∞ –æ—Ç—Å—É—Ç—Å—Ç–≤—É–µ—Ç. –ü–æ–¥–∫–ª—é—á–µ–Ω–∞ —Å—Ç—Ä–∞–Ω–∏—Ü–∞ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é.";
 				return 0;
 			}
 			else
 			{
-				$this->error="œÓ‰ÍÎ˛˜‡ÂÏ‡ˇ Ë ÔÓ ÛÏÓÎ˜‡ÌË˛ ÒÚ‡ÌËˆ‡ ÓÚÒÛÚÒÚ‚Û˛Ú! œÓ‚Â¸ Ì‡ÒÚÓÈÍË ÍÎ‡ÒÒ‡!";
+				$this->error="–ü–æ–¥–∫–ª—é—á–∞–µ–º–∞—è –∏ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é —Å—Ç—Ä–∞–Ω–∏—Ü–∞ –æ—Ç—Å—É—Ç—Å—Ç–≤—É—é—Ç! –ü—Ä–æ–≤–µ—Ä—å –Ω–∞—Å—Ç—Ä–æ–π–∫–∏ –∫–ª–∞—Å—Å–∞!";
 				return 0;
 			}
 	}
 	
 	
-	//¬ÓÁ‚‡˘‡ÂÚ ‡ÚË·ÛÚ˚ ÒÚ‡ÌËˆ˚
+	//–í–æ–∑–≤—Ä–∞—â–∞–µ—Ç –∞—Ç—Ä–∏–±—É—Ç—ã —Å—Ç—Ä–∞–Ω–∏—Ü—ã
 	public function getThisPageAttributs()
 	{
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+			$this->error="–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 			return 0;
 		} 
 		
 		if(!$xml=@simplexml_load_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ËÏÂÂÚ ÌÂÔ‡‚ËÎ¸Ì˚È xml ÙÓÏ‡Ú!";
+			$this->error="–§–∞–π–ª ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –∏–º–µ–µ—Ç –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω—ã–π xml —Ñ–æ—Ä–º–∞—Ç!";
 			return 0;
 		}
 
@@ -117,7 +117,7 @@ class MyPage
 		$fileDefaultAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/default.php";
 		if(!is_file($fileDefaultAttach)) 
 		{
-			$this->error="ÕÂÚ Ù‡ÈÎ‡ ÏÂÚ‡ Ú˝„Ó‚ ÔÓ ÛÏÓÎ˜‡ÌË˛ $fileDefaultAttach!";
+			$this->error="–ù–µ—Ç —Ñ–∞–π–ª–∞ –º–µ—Ç–∞ —Ç—ç–≥–æ–≤ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é $fileDefaultAttach!";
 			return 0;
 		}	
 		
@@ -126,19 +126,19 @@ class MyPage
 		{
 			if($page->src==$this->src)
 			{
-				$this->title= (!empty($page->title)) ? iconv("UTF-8","Windows-1251",$page->title) : $this->title;
-				$this->name= (!empty($page->name)) ? iconv("UTF-8","Windows-1251",$page->name) : $this->name;
+				$this->title= (!empty($page->title)) ? iconv("UTF-8","utf-8",$page->title) : $this->title;
+				$this->name= (!empty($page->name)) ? iconv("UTF-8","utf-8",$page->name) : $this->name;
 				$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".$page->metasFile;
 				if(!empty($page->metasFile) && !is_file($filePersonalAttach))
 				{
-					$this->error="‘‡ÈÎ $filePersonalAttach Á‡‰‡Ì Í‡Í ÔÂÒÓÌ‡Î¸Ì˚Â ÏÂÚ‡ Ú˝„Ë, ÌÓ Â„Ó ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+					$this->error="–§–∞–π–ª $filePersonalAttach –∑–∞–¥–∞–Ω –∫–∞–∫ –ø–µ—Ä—Å–æ–Ω–∞–ª—å–Ω—ã–µ –º–µ—Ç–∞ —Ç—ç–≥–∏, –Ω–æ –µ–≥–æ –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 					return 0;
 				}
 				if(!empty($page->metasFile)) $this->metas.= @file_get_contents($filePersonalAttach);
 				return 1;
 			}
 		}
-		$this->error="¿ÚÚË·ÛÚ˚ ‰Îˇ ".$this->name." ‚ Ù‡ÈÎÂ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ Ì‡È‰ÂÌ˚!";
+		$this->error="–ê—Ç—Ç—Ä–∏–±—É—Ç—ã –¥–ª—è ".$this->name." –≤ —Ñ–∞–π–ª–µ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ –Ω–∞–π–¥–µ–Ω—ã!";
 		return -1;
 	}
 	
@@ -149,13 +149,13 @@ class MyPage
 	{
 		if(!is_dir($_SERVER['DOCUMENT_ROOT'].$newDir))
 		{
-			$this->error="ÕÂÚ Ú‡ÍÓÈ ‰ËÂÍÚÓËË ".$_SERVER['DOCUMENT_ROOT'].$newDir;
+			$this->error="–ù–µ—Ç —Ç–∞–∫–æ–π –¥–∏—Ä–µ–∫—Ç–æ—Ä–∏–∏ ".$_SERVER['DOCUMENT_ROOT'].$newDir;
 			return 0;
 		}
 		
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$newDir."/define.xml"))
 		{
-			$this->error="¬ Á‡‰‡ÌÌÓÈ ‰ËÂÍÚÓËË ÌÂÚ Ù‡ÈÎ‡ define.xml";
+			$this->error="–í –∑–∞–¥–∞–Ω–Ω–æ–π –¥–∏—Ä–µ–∫—Ç–æ—Ä–∏–∏ –Ω–µ—Ç —Ñ–∞–π–ª–∞ define.xml";
 			return 0;
 		}
 	
@@ -173,13 +173,13 @@ class MyPage
 		$VAL="";
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+			$this->error="–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 			return 0;
 		} 
 		
 		if(!$xml=@simplexml_load_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ËÏÂÂÚ ÌÂÔ‡‚ËÎ¸Ì˚È xml ÙÓÏ‡Ú!";
+			$this->error="–§–∞–π–ª ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –∏–º–µ–µ—Ç –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω—ã–π xml —Ñ–æ—Ä–º–∞—Ç!";
 			return 0;
 		}
 
@@ -187,7 +187,7 @@ class MyPage
 		$fileDefaultAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/default.php";
 		if(!is_file($fileDefaultAttach)) 
 		{
-			$this->error="ÕÂÚ Ù‡ÈÎ‡ ÏÂÚ‡ Ú˝„Ó‚ ÔÓ ÛÏÓÎ˜‡ÌË˛ $fileDefaultAttach!";
+			$this->error="–ù–µ—Ç —Ñ–∞–π–ª–∞ –º–µ—Ç–∞ —Ç—ç–≥–æ–≤ –ø–æ —É–º–æ–ª—á–∞–Ω–∏—é $fileDefaultAttach!";
 			return 0;
 		}	
 		
@@ -196,19 +196,19 @@ class MyPage
 		{
 			if($page->src==$pageSrc)
 			{
-				$VAL["title"]= (!empty($page->title)) ? iconv("UTF-8","Windows-1251",$page->title) : $this->title;
-				$VAL["name"]= (!empty($page->name)) ? iconv("UTF-8","Windows-1251",$page->name) : "";
+				$VAL["title"]= (!empty($page->title)) ? iconv("UTF-8","utf-8",$page->title) : $this->title;
+				$VAL["name"]= (!empty($page->name)) ? iconv("UTF-8","utf-8",$page->name) : "";
 				$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".$page->metasFile;
 				if(!empty($page->metasFile) && !is_file($filePersonalAttach))
 				{
-					$this->error="‘‡ÈÎ $filePersonalAttach Á‡‰‡Ì Í‡Í ÔÂÒÓÌ‡Î¸Ì˚Â ÏÂÚ‡ Ú˝„Ë, ÌÓ Â„Ó ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+					$this->error="–§–∞–π–ª $filePersonalAttach –∑–∞–¥–∞–Ω –∫–∞–∫ –ø–µ—Ä—Å–æ–Ω–∞–ª—å–Ω—ã–µ –º–µ—Ç–∞ —Ç—ç–≥–∏, –Ω–æ –µ–≥–æ –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 					return 0;
 				}
 				if(!empty($page->metasFile)) $VAL["metas"].=htmlentities(@file_get_contents($filePersonalAttach));
 				return $VAL;
 			}
 		}
-		$this->error="¿ÚÚË·ÛÚ˚ ‰Îˇ ".$this->name." ‚ Ù‡ÈÎÂ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ Ì‡È‰ÂÌ˚!";
+		$this->error="–ê—Ç—Ç—Ä–∏–±—É—Ç—ã –¥–ª—è ".$this->name." –≤ —Ñ–∞–π–ª–µ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ –Ω–∞–π–¥–µ–Ω—ã!";
 		return $VAL;
 	}
 	
@@ -223,20 +223,20 @@ class MyPage
 		
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+			$this->error="–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 			return 0;
 		} 
 		
 		if(!$xml=@simplexml_load_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ËÏÂÂÚ ÌÂÔ‡‚ËÎ¸Ì˚È xml ÙÓÏ‡Ú!";
+			$this->error="–§–∞–π–ª ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –∏–º–µ–µ—Ç –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω—ã–π xml —Ñ–æ—Ä–º–∞—Ç!";
 			return 0;
 		}
 
 		
 		if($this->createFileIfNotExist && !is_file($_SERVER['DOCUMENT_ROOT'].$pageSrc))
 		{
-			$this->statusLog[] = "‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$pageSrc." ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ. —ÓÁ‰‡ÂÏ!";
+			$this->statusLog[] = "–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$pageSrc." –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç. –°–æ–∑–¥–∞–µ–º!";
 			
 			$dirs = explode("/",$pageSrc);
 			$currentPath = $_SERVER['DOCUMENT_ROOT'];
@@ -245,17 +245,17 @@ class MyPage
 				if(!empty($dir) and $dir!=basename($pageSrc) and !is_dir($currentPath."/$dir"))
 				{
 					$currentPath.= "/$dir";
-					if(!@mkdir($currentPath)) $this->statusLog[] = "œ–Œ¬¿À≈ÕŒ! ÌÂ Û‰‡ÎÓÒ¸ ÒÓÁ‰‡Ú¸ ÔÓ‰Ô‡ÔÍÛ $currentPath";
+					if(!@mkdir($currentPath)) $this->statusLog[] = "–ü–†–û–í–ê–õ–ï–ù–û! –Ω–µ —É–¥–∞–ª–æ—Å—å —Å–æ–∑–¥–∞—Ç—å –ø–æ–¥–ø–∞–ø–∫—É $currentPath";
 				}
 			}
 			
-			$this->statusLog[] = "–ÂÁÛÎ¸Ú‡Ú: ".( (@file_put_contents($_SERVER['DOCUMENT_ROOT'].$pageSrc,$this->startUpText)) ? "”—œ≈ÿÕŒ":"œ–Œ¬¿À≈ÕŒ!" );
+			$this->statusLog[] = "–†–µ–∑—É–ª—å—Ç–∞—Ç: ".( (@file_put_contents($_SERVER['DOCUMENT_ROOT'].$pageSrc,$this->startUpText)) ? "–£–°–ü–ï–®–ù–û":"–ü–†–û–í–ê–õ–ï–ù–û!" );
 		}
 		
 		
 		if(!$this->createFileIfNotExist && !is_file($_SERVER['DOCUMENT_ROOT'].$pageSrc))
 		{
-			$this->statusLog[] = "‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$pageSrc."ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ. ‘Î‡„ createFileIfNotExist ÌÂ ÛÒÚ‡ÌÓ‚ÎÂÌ. ";;
+			$this->statusLog[] = "–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$pageSrc."–Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç. –§–ª–∞–≥ createFileIfNotExist –Ω–µ —É—Å—Ç–∞–Ω–æ–≤–ª–µ–Ω. ";;
 		}
 		
 
@@ -263,39 +263,39 @@ class MyPage
 		{
 			if($page->src==$pageSrc)
 			{
-				$this->statusLog[] = "Õ‡È‰ÂÌ‡ Á‡ÔËÒ¸ ÔÓ $pageSrc";
+				$this->statusLog[] = "–ù–∞–π–¥–µ–Ω–∞ –∑–∞–ø–∏—Å—å –ø–æ $pageSrc";
 				
-				$page->title= iconv("Windows-1251","UTF-8",$title);
-				$page->name = iconv("Windows-1251","UTF-8",$name);
+				$page->title= iconv("utf-8","UTF-8",$title);
+				$page->name = iconv("utf-8","UTF-8",$name);
 				
-				$this->statusLog[] = "«‡„ÓÎÓ‚ÓÍ ÛÒÔÂ¯ÌÓ Ó·ÌÓ‚ÎÂÌ";
+				$this->statusLog[] = "–ó–∞–≥–æ–ª–æ–≤–æ–∫ —É—Å–ø–µ—à–Ω–æ –æ–±–Ω–æ–≤–ª–µ–Ω";
 				
 				$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".$page->metasFile;
 				if(is_file($filePersonalAttach))
 				{
 					if(!empty($metas) && !@file_put_contents($filePersonalAttach,$metas))
 					{
-						$this->error="ÕÂ Û‰‡ÎÓÒ¸ Á‡ÔËÒ‡Ú¸ ‚ Ó·˙ˇ‚ÎÂÌÌ˚È ‚ Ù‡ÈÎÂ ÓÔËÒ‡ÌËˇ Ù‡ÈÎ $filePersonalAttach";
+						$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –∑–∞–ø–∏—Å–∞—Ç—å –≤ –æ–±—ä—è–≤–ª–µ–Ω–Ω—ã–π –≤ —Ñ–∞–π–ª–µ –æ–ø–∏—Å–∞–Ω–∏—è —Ñ–∞–π–ª $filePersonalAttach";
 						return 0;
 					}
 					
-					$this->statusLog[] = "‘‡ÈÎ ÏÂÚ‡ ÒÛ˘ÂÒÚ‚ÛÂÚ. ÃÂÚ‡ Ú˝„Ë ÛÒÔÂ¯ÌÓ Ó·ÌÓ‚ÎÂÌ˚";
+					$this->statusLog[] = "–§–∞–π–ª –º–µ—Ç–∞ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç. –ú–µ—Ç–∞ —Ç—ç–≥–∏ —É—Å–ø–µ—à–Ω–æ –æ–±–Ω–æ–≤–ª–µ–Ω—ã";
 				}
 				else
 				{
 					$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".rand(1,99).str_replace("/","_",$pageSrc);
 					if(!empty($metas) && !@file_put_contents($filePersonalAttach,$metas))
 					{
-						$this->error="ÕÂ Û‰‡ÎÓÒ¸ Á‡ÔËÒ‡Ú¸ ÏÂÚ‡ ‰‡ÌÌ˚Â ‚ ÌÓ‚˚È Ù‡ÈÎ $filePersonalAttach";
+						$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –∑–∞–ø–∏—Å–∞—Ç—å –º–µ—Ç–∞ –¥–∞–Ω–Ω—ã–µ –≤ –Ω–æ–≤—ã–π —Ñ–∞–π–ª $filePersonalAttach";
 						return 0;
 					}
 					$page->metasFile=basename($filePersonalAttach);	
-					$this->statusLog[] = "‘‡ÈÎ‡ ÏÂÚ‡ Õ≈ÒÛ˘ÂÒÚ‚ÛÂÚ. ÃÂÚ‡ Ú˝„Ë ÛÒÔÂ¯ÌÓ ÒÓÁ‰‡Ì˚ Ë Á‡ÔËÒ‡Ì˚ ‚ Ù‡ÈÎ $filePersonalAttach";
+					$this->statusLog[] = "–§–∞–π–ª–∞ –º–µ—Ç–∞ –ù–ï—Å—É—â–µ—Å—Ç–≤—É–µ—Ç. –ú–µ—Ç–∞ —Ç—ç–≥–∏ —É—Å–ø–µ—à–Ω–æ —Å–æ–∑–¥–∞–Ω—ã –∏ –∑–∞–ø–∏—Å–∞–Ω—ã –≤ —Ñ–∞–π–ª $filePersonalAttach";
 				}
 				
 				if(!@file_put_contents($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile,$xml->asXML()))
 				{
-					$this->error="ÕÂ Û‰‡ÎÓÒ¸ Á‡ÔËÒ‡Ú¸ ‰‡ÌÌ˚Â ‚ Ù‡ÈÎ ÓÔËÒ‡ÌËˇ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile;
+					$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –∑–∞–ø–∏—Å–∞—Ç—å –¥–∞–Ω–Ω—ã–µ –≤ —Ñ–∞–π–ª –æ–ø–∏—Å–∞–Ω–∏—è ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile;
 					return 0;
 				}
 				
@@ -303,29 +303,29 @@ class MyPage
 			}
 		}
 
-		$this->statusLog[] = "Õ≈ Ì‡È‰ÂÌ‡ Á‡ÔËÒ¸ ÔÓ $pageSrc. —ÓÁ‰‡ÂÏ ÌÓ‚Û˛ Á‡ÔËÒ¸";
+		$this->statusLog[] = "–ù–ï –Ω–∞–π–¥–µ–Ω–∞ –∑–∞–ø–∏—Å—å –ø–æ $pageSrc. –°–æ–∑–¥–∞–µ–º –Ω–æ–≤—É—é –∑–∞–ø–∏—Å—å";
 				
 		$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".rand(1,99).str_replace("/","_",$pageSrc);
 		if(!empty($metas) && !@file_put_contents($filePersonalAttach,$metas))
 		{
-			$this->error="ÕÂ Û‰‡ÎÓÒ¸ Á‡ÔËÒ‡Ú¸ ÌÓ‚˚Â ÏÂÚ‡ ‰‡ÌÌ˚Â ‚ ÌÓ‚˚È Ù‡ÈÎ $filePersonalAttach";
+			$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –∑–∞–ø–∏—Å–∞—Ç—å –Ω–æ–≤—ã–µ –º–µ—Ç–∞ –¥–∞–Ω–Ω—ã–µ –≤ –Ω–æ–≤—ã–π —Ñ–∞–π–ª $filePersonalAttach";
 			return 0;
 		}
 
-		$this->statusLog[] = "ÕÓ‚˚Â ÏÂÚ‡ ÛÒÔÂ¯ÌÓ Á‡ÔËÒ‡Ì˚ ‚ Ù‡ÈÎ $filePersonalAttach";
+		$this->statusLog[] = "–ù–æ–≤—ã–µ –º–µ—Ç–∞ —É—Å–ø–µ—à–Ω–æ –∑–∞–ø–∏—Å–∞–Ω—ã –≤ —Ñ–∞–π–ª $filePersonalAttach";
 				
 		$newNode=$xml->addChild("page");
 		$newNode->addChild("src",$pageSrc);
-		$newNode->addChild("name",iconv("Windows-1251","UTF-8",$name));
-		$newNode->addChild("title",iconv("Windows-1251","UTF-8",$title));
+		$newNode->addChild("name",iconv("utf-8","UTF-8",$name));
+		$newNode->addChild("title",iconv("utf-8","UTF-8",$title));
 		$newNode->addChild("metasFile",basename($filePersonalAttach));
 		if(!@file_put_contents($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile,$xml->asXML()))
 		{
-			$this->error="ÕÂ Û‰‡ÎÓÒ¸ ‰ÓÔËÒ‡Ú¸ ÌÓ‚˚Â ‰‡ÌÌ˚Â ‚ Ù‡ÈÎ ÓÔËÒ‡ÌËˇ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile;
+			$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –¥–æ–ø–∏—Å–∞—Ç—å –Ω–æ–≤—ã–µ –¥–∞–Ω–Ω—ã–µ –≤ —Ñ–∞–π–ª –æ–ø–∏—Å–∞–Ω–∏—è ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile;
 			return 0;
 		}
 		
-		$this->statusLog[] = "«‡ÔËÒ¸ ÔÓ $pageSrc ÛÒÔÂ¯ÌÓ ‰Ó·‡‚ÎÂÌ˚ ‚ Ù‡ÈÎ ÓÔËÒ‡ÌËˇ";
+		$this->statusLog[] = "–ó–∞–ø–∏—Å—å –ø–æ $pageSrc —É—Å–ø–µ—à–Ω–æ –¥–æ–±–∞–≤–ª–µ–Ω—ã –≤ —Ñ–∞–π–ª –æ–ø–∏—Å–∞–Ω–∏—è";
 				
 		return 1;
 	}
@@ -337,16 +337,16 @@ class MyPage
 /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 	public function delete($pageSrc)
 	{
-		$this->statusLog[] = "”‰‡ÎˇÂÏ ÒÚ‡ÌËˆÛ $pageSrc";
+		$this->statusLog[] = "–£–¥–∞–ª—è–µ–º —Å—Ç—Ä–∞–Ω–∏—Ü—É $pageSrc";
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ‡ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ!";
+			$this->error="–§–∞–π–ª–∞ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç!";
 			return 0;
 		} 
 		
 		if(!$xml=@simplexml_load_file($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile))
 		{
-			$this->error="‘‡ÈÎ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ËÏÂÂÚ ÌÂÔ‡‚ËÎ¸Ì˚È xml ÙÓÏ‡Ú!";
+			$this->error="–§–∞–π–ª ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –∏–º–µ–µ—Ç –Ω–µ–ø—Ä–∞–≤–∏–ª—å–Ω—ã–π xml —Ñ–æ—Ä–º–∞—Ç!";
 			return 0;
 		}
 
@@ -359,35 +359,35 @@ class MyPage
 				$filePersonalAttach=$_SERVER['DOCUMENT_ROOT'].$this->metaDefinitionDir."/".$page->metasFile;
 				if(!empty($page->metasFile) && !is_file($filePersonalAttach))
 				{
-					$this->statusLog[]="‘‡ÈÎ $filePersonalAttach Á‡‰‡Ì Í‡Í ÔÂÒÓÌ‡Î¸Ì˚Â ÏÂÚ‡ Ú˝„Ë, ÌÓ Â„Ó ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ! œ–ÓÔÛÒÍ‡ÂÏ!";
+					$this->statusLog[]="–§–∞–π–ª $filePersonalAttach –∑–∞–¥–∞–Ω –∫–∞–∫ –ø–µ—Ä—Å–æ–Ω–∞–ª—å–Ω—ã–µ –º–µ—Ç–∞ —Ç—ç–≥–∏, –Ω–æ –µ–≥–æ –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç! –ü–†–æ–ø—É—Å–∫–∞–µ–º!";
 				}
 				else
 				if(!empty($page->metasFile) && is_file($filePersonalAttach)) 
 				{
-					$this->statusLog[] = "‘‡ÈÎ $filePersonalAttach Á‡‰‡Ì Í‡Í ÔÂÒÓÌ‡Î¸Ì˚Â ÏÂÚ‡ Ú˝„Ë, ”ƒ¿Àˇ≈Ï! –ÂÁÛÎ¸Ú‡Ú: ".@					unlink($filePersonalAttach);;
+					$this->statusLog[] = "–§–∞–π–ª $filePersonalAttach –∑–∞–¥–∞–Ω –∫–∞–∫ –ø–µ—Ä—Å–æ–Ω–∞–ª—å–Ω—ã–µ –º–µ—Ç–∞ —Ç—ç–≥–∏, –£–î–ê–õ—è–ï–º! –†–µ–∑—É–ª—å—Ç–∞—Ç: ".@					unlink($filePersonalAttach);;
 				}
 				unset($xml->page[$pageIndex]);
-				$this->statusLog[] = "«‡ÔËÒ¸ ‚ Ù‡ÈÎÂ ÓÔËÒ‡ÌËˇ Ó ÒÚ‡ÌËˆÂ $pageSrc Û‰‡ÎÂÌ‡!";
+				$this->statusLog[] = "–ó–∞–ø–∏—Å—å –≤ —Ñ–∞–π–ª–µ –æ–ø–∏—Å–∞–Ω–∏—è –æ —Å—Ç—Ä–∞–Ω–∏—Ü–µ $pageSrc —É–¥–∞–ª–µ–Ω–∞!";
 				if($this->createFileIfNotExist)
 				{
 					if(!is_file($_SERVER['DOCUMENT_ROOT'].$pageSrc))
 					{
-						$this->statusLog[] = "‘Î‡„ createFileIfNotExist ÛÒÚ‡ÌÓ‚ÎÂÌ ÌÓ Ù‡ÈÎ‡ $pageSrc ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ";
+						$this->statusLog[] = "–§–ª–∞–≥ createFileIfNotExist —É—Å—Ç–∞–Ω–æ–≤–ª–µ–Ω –Ω–æ —Ñ–∞–π–ª–∞ $pageSrc –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç";
 					}
 					else
 					{
-						$this->statusLog[] = "‘Î‡„ createFileIfNotExist ÛÒÚ‡ÌÓ‚ÎÂÌ Ë Ù‡ÈÎ $pageSrc ÒÛ˘ÂÒÚ‚ÛÂÚ. ”‰‡ÎˇÂÏ! –ÂÁÛÎ¸Ú‡Ú: ".@unlink($_SERVER['DOCUMENT_ROOT'].$pageSrc);
+						$this->statusLog[] = "–§–ª–∞–≥ createFileIfNotExist —É—Å—Ç–∞–Ω–æ–≤–ª–µ–Ω –∏ —Ñ–∞–π–ª $pageSrc —Å—É—â–µ—Å—Ç–≤—É–µ—Ç. –£–¥–∞–ª—è–µ–º! –†–µ–∑—É–ª—å—Ç–∞—Ç: ".@unlink($_SERVER['DOCUMENT_ROOT'].$pageSrc);
 					}
 				}
 				else
 				{
-					$this->statusLog[] = "‘Î‡„ createFileIfNotExist ÌÂ ÛÒÚ‡ÌÓ‚ÎÂÌ. ‘‡ÈÎ $pageSrc ÌÂ Û‰‡ÎˇÂÏ. ";
+					$this->statusLog[] = "–§–ª–∞–≥ createFileIfNotExist –Ω–µ —É—Å—Ç–∞–Ω–æ–≤–ª–µ–Ω. –§–∞–π–ª $pageSrc –Ω–µ —É–¥–∞–ª—è–µ–º. ";
 				}
 				
 				
 				if(!@file_put_contents($_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile,$xml->asXML()))
 				{
-					$this->error="ÕÂ Û‰‡ÎÓÒ¸ ËÁÏÂÌËÚ¸ ‰‡ÌÌ˚Â ‚ Ù‡ÈÎÂ ÓÔËÒ‡ÌËˇ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile.". Œ¯Ë·Í‡ ÔË ‰ÓÒÚÛÔÂ Í Ù‡ÎÛ Ì‡ Á‡ÔËÒ¸.";
+					$this->error="–ù–µ —É–¥–∞–ª–æ—Å—å –∏–∑–º–µ–Ω–∏—Ç—å –¥–∞–Ω–Ω—ã–µ –≤ —Ñ–∞–π–ª–µ –æ–ø–∏—Å–∞–Ω–∏—è ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile.". –û—à–∏–±–∫–∞ –ø—Ä–∏ –¥–æ—Å—Ç—É–ø–µ –∫ —Ñ–∞–ª—É –Ω–∞ –∑–∞–ø–∏—Å—å.";
 					return 0;
 				}
 		
@@ -396,15 +396,15 @@ class MyPage
 			$pageIndex++;
 		}
 		
-		$this->error="«‡ÔËÒ¸ ‰Îˇ $pageSrc ‚ Ù‡ÈÎÂ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ Ì‡È‰ÂÌ‡!";
+		$this->error="–ó–∞–ø–∏—Å—å –¥–ª—è $pageSrc –≤ —Ñ–∞–π–ª–µ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ –Ω–∞–π–¥–µ–Ω–∞!";
 		if($this->createFileIfNotExist and is_file($_SERVER['DOCUMENT_ROOT'].$pageSrc))
 		{
-			$this->statusLog[] = "«‡ÔËÒ¸ ‰Îˇ $pageSrc ‚ Ù‡ÈÎÂ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ Ì‡È‰ÂÌ‡! ÕÓ Ù‡ÈÎ ÒÛ˘ÂÒÚ‚ÛÂÚ Ë ÙÎ‡„ createFileIfNotExist ÛÒÚ‡ÌÓ‚ÎÂÌ. ”‰‡ÎˇÂÏ! –ÂÁÛÎ¸Ú‡Ú: ".@unlink($_SERVER['DOCUMENT_ROOT'].$pageSrc);
+			$this->statusLog[] = "–ó–∞–ø–∏—Å—å –¥–ª—è $pageSrc –≤ —Ñ–∞–π–ª–µ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ –Ω–∞–π–¥–µ–Ω–∞! –ù–æ —Ñ–∞–π–ª —Å—É—â–µ—Å—Ç–≤—É–µ—Ç –∏ —Ñ–ª–∞–≥ createFileIfNotExist —É—Å—Ç–∞–Ω–æ–≤–ª–µ–Ω. –£–¥–∞–ª—è–µ–º! –†–µ–∑—É–ª—å—Ç–∞—Ç: ".@unlink($_SERVER['DOCUMENT_ROOT'].$pageSrc);
 		}
 		else
 		if(!is_file($_SERVER['DOCUMENT_ROOT'].$pageSrc))
 		{
-			$this->statusLog[] = "«‡ÔËÒ¸ ‰Îˇ $pageSrc ‚ Ù‡ÈÎÂ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." ÌÂ Ì‡È‰ÂÌ‡ Ë Ù‡ÈÎ‡ $pageSrc ÌÂ ÒÛ˘ÂÒÚ‚ÛÂÚ";
+			$this->statusLog[] = "–ó–∞–ø–∏—Å—å –¥–ª—è $pageSrc –≤ —Ñ–∞–π–ª–µ ".$_SERVER['DOCUMENT_ROOT'].$this->defineXMLFile." –Ω–µ –Ω–∞–π–¥–µ–Ω–∞ –∏ —Ñ–∞–π–ª–∞ $pageSrc –Ω–µ —Å—É—â–µ—Å—Ç–≤—É–µ—Ç";
 		}
 		return 0;
 	}
