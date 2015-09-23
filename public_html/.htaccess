@@ -1,9 +1,15 @@
 AddDefaultCharset utf-8
-ErrorDocument 404 /error
 
 RewriteEngine On
-RewriteBase /
 
+RewriteCond %{HTTP_HOST} .
+RewriteCond %{HTTP_HOST} !^www\.pravo-spb\.net [NC]
+RewriteCond %{HTTP_HOST} !^www\.pravo-spb\.dev [NC]
+RewriteCond %{HTTP_HOST} !^pravo-spb\.dev [NC]
+RewriteRule (.*) http://www.pravo-spb.net/$1 [R=301,L]
+
+RewriteCond %{REQUEST_URI} index\.php
+RewriteRule ^(.*)$ http://%{HTTP_HOST}/ [R=301,L]
 
 RewriteRule ^\.htaccess - [F]
 RewriteCond %{REQUEST_FILENAME} !-d
