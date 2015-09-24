@@ -46,4 +46,4 @@
 	<li>Высокий профессиональный уровень решения задач, поставленных перед нами клиентом.</li>
 </ul>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");

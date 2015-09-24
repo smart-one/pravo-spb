@@ -21,4 +21,4 @@
     <li>Изготовление печати на обычной оснастке (при необходимости) </li>
 </ul>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");

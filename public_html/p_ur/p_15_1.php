@@ -8,4 +8,4 @@
 <p>Открытие счета с «Центром Правовых Услуг» пройдет быстро и комфортно.
 </p>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");

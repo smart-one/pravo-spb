@@ -7,4 +7,4 @@
 <p>В случае заказа услуг от 5000 рублей, а так же для постоянных клиентов «Центра Правовых Услуг» – выезд курьера осуществляется БЕСПЛАТНО!
 </p>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");

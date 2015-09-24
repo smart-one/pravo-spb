@@ -47,4 +47,4 @@
 <p>&nbsp;</p>
 
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");

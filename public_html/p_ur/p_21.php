@@ -33,4 +33,4 @@
 <li>составить решение о назначении руководителя и главного бухгалтера компании.</li>
 </ul>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
