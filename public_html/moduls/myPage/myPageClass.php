@@ -68,7 +68,12 @@ class MyPage
 			return 0;
 		} else {
 			$this->src = $this->urlMap[htmlspecialchars($src)];
+			if(empty($this->src)){
+				header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
+				$this->src = "/p_error.php";
+			}
 		}
+
 		$this->path = $_SERVER['DOCUMENT_ROOT'] . $this->src;
 		
 		return 1;
