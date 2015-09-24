@@ -65,13 +65,10 @@ area
 	background:  #e2f4fe;
 }
 
-
-
-
-
 /*   TOP  */
 .top
 {
+	display: block;
 	width:1024px;
 	height:146px;
 	background:url(/pictures/top_03.jpg) no-repeat 0px 0px;
@@ -131,12 +128,6 @@ area
 {
 	color:#68cbf5;
 }
-
-
-
-
-
-
 
 /*  LEFT  */
 .leftSide
@@ -223,15 +214,6 @@ area
 	width:184px;
 	border:0px solid red;
 }
-.rightSide .phone
-{
-	display:block;
-	width:184px;
-	height:59px;
-	background:url(/pictures/p_03.jpg) no-repeat 0px 0px;
-	text-decoration:none;
-	border-bottom:3px solid #82d6fa;
-}
 .rightSide .search
 {
 	display:block;
@@ -240,6 +222,33 @@ area
 	background:url(/pictures/p_06.jpg) no-repeat 0px 0px;
 	border-bottom:3px solid #82d6fa;
 }
+.rightSide .contacts
+{
+	display:block;
+	margin-left: -10px;
+	width:198px;
+	height:47px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-decoration:none;
+	border-bottom:3px solid #82d6fa;
+	color: #04548f;
+	font: italic 20px bold "Arial", sans-serif;
+	text-align: center;
+}
+
+.rightSide .email
+{
+	font-size: 12px;
+}
+
+.rightSide .operation-time
+{
+	font-weight: normal;
+	font-size: 10px;
+	color: #85693c;
+}
+
 .rightSide .search .input
 {
 	width:120px;

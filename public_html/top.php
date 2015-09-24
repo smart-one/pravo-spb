@@ -1,3 +1,3 @@
-<div class="top">
+<a class="top" href="/">
 
-</div>
+</a>

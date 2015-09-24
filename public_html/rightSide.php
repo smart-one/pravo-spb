@@ -1,6 +1,10 @@
 <div class="rightSide">
 
-	<a class="phone" href="/">&nbsp;</a>
+	<div class="contacts">
+         <div class="tel">+7(812)987-3428</div>
+         <div class="email">pravo-spb@info.ru</div>
+         <div class="operation-time">Часы работы: с 9:30 до 19 по будням</div>
+    </div>
 <h3>Адреса офисов в СПб:</h3>
 <ul style="padding-left:0px; list-style:none; font-style:italic">
     <li>Московский пр. д.2</li>
