@@ -1,6 +1,6 @@
 <?php 
-    require_once $_SERVER['DOCUMENT_ROOT']."/configs/config.php";
-	$page = new myPage($_GET["page"]);
+    require_once ($_SERVER['DOCUMENT_ROOT']."/configs/config.php");
+	$page = new myPage(isset($_GET["page"]) ? $_GET["page"] : null);
 	$page->getThisPageAttributs();
 ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">

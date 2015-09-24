@@ -17,7 +17,11 @@ class UrlMap{
     "registraciya-ooo-v-spb" => "/p_ur/p_11.php",
     "vnesenie-izmeneniy-v-ustav" => "/p_ur/p_12.php",
 
-    "licvidaciya-ooo-putem-prodagi-doli" => "/p_ur/p_13.php", # ur/13
+    "destroy-share-sell" => [
+        'ru_breadcrumb' => 'Ликвидация ООО путем продажи доли',
+        'url' => 'licvidaciya-ooo-putem-prodagi-doli',
+        'path' => '/p_ur/p_13.php',
+    ],
     "prodaja-gotovih-firm" => "/p_ur/p_14.php", # ur/14
     "predostavlenie-uridicheskogo-adresa-pri-registracii" => "/p_ur/p_15.php", # ur/15
     "registraciya-filiala" => "/p_ur/p_16.php", # ur/16
@@ -77,7 +81,11 @@ class UrlMap{
 
     "ur-price" => "/p_urPrices.php",
     "fiz-price" => "/p_fizPrices.php",
-    "price" => "/p_price.php",
+    "price" => [
+        'ru_breadcrumb' => 'Цены',
+        'url' => 'price',
+        'path' => '/p_price.php',
+    ],
     "question" => "/p_question.php",
     "ring" => "/p_ring.php",
     "online-zayavka" => "/p_regfirm.php",
@@ -98,5 +106,29 @@ class UrlMap{
     }
 
     return $res;
+  }
+
+  public static function getLinkByRoute($routeName) {
+    return self::$urls[$routeName]['url'];
+  }
+
+  public static function getMappingArray() {
+    $mappingArray = [];
+    foreach (self::$urls as $routeName => $value) {
+        if(gettype($value) === "array"){
+            $mappingArray[$value['url']] = $value['path']; 
+        } else {
+            $mappingArray[$routeName] = $value;
+        }
+    }
+    return $mappingArray;
+  }
+
+  public static function getRuBreadcrumb($path) {
+    foreach (self::$urls as $routeName => $value) {
+        if(gettype($value) === 'array' && $path === $value['path'] && isset($value['ru_breadcrumb'])){
+            return $value['ru_breadcrumb'];
+        }
+    }
   }
 }

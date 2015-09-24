@@ -9,7 +9,7 @@ class Search
 	
 	function setContent($val)
 	{
-		$this->search_content=strtolower($val);
+		$this->search_content=mb_strtolower($val, 'UTF-8');
 	}
 	
 	
@@ -48,23 +48,7 @@ class Search
 			 	$CONTENT_ARR[$i]=$VALUE;
 				}
 			}
-			/*preg_match_all("/class=.?acrobat.?[^>]*>(.*)<\/a>/",$content,$res,PREG_SET_ORDER);
-			if (count($res)!=0) 
-			{
-				for($j=0;$j<count($res);$j++)
-				{
-					$cnt=substr_count(strtolower(strip_tags($res[$j][1])),strtolower($this->search_content));
-					if ($cnt>0) 
-					{
-						$DOCS["acrobat"][$j]=$res[$j][1];
-						$DOCS["a_count"][$j]=$cnt;
-					}
-				}
-			}*/
-			
-			
 		}
 		return $CONTENT_ARR;
 	}
 }
-?>

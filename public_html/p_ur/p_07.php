@@ -1,8 +1,3 @@
-<style type="text/css">
-<!--
-
--->
-</style>
 <div class="text">
 <h1>Абонентское юридическое обслуживание</h1>
 

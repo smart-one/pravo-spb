@@ -1,5 +1,4 @@
 <div class="text">
-<br>
 <h1 style="color: #0a7ff4;">Какие вопросы чаще всего задают при ликвидации компании</h1>
 
 <h3 style="font-size: 14px; color: #0a7ff4;">1. Что означает понятие «альтернативная ликвидация» компании?</h3>
@@ -46,4 +45,4 @@
 
 <p>&nbsp;</p>
 
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 4);

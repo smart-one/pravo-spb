@@ -38,4 +38,4 @@
 <li>создание новой учительной документации согласно требованиям заказчика.</li>
 </ul>
 
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 5);

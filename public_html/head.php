@@ -1,7 +1,6 @@
-<p> </p>
 <h1 style="color: #0a7ff4; text-align: center;">Процедура ликвидации ООО в Санкт-Петербурге</h1>
 <ul>
-<li style="text-align: left;"><a href="/licvidaciya-ooo-putem-prodagi-doli" title="Ликвидация через продажу">Ликвидация ООО фирм через продажу.</a></li>
+<li style="text-align: left;"><a href="<?= link_to('destroy-share-sell') ?>" title="Ликвидация через продажу">Ликвидация ООО фирм через продажу.</a></li>
 <li style="text-align: left;"><a href="/likvidaciya-firmi-putem-reorganizacii" title="Альтернативная ликвидация ООО">Альтернативная ликвидация ООО</a></li>
 <li style="text-align: left;"><a href="/bankrotstvo-firmi-ooo">Ликвидация ООО через процедуру банкротства</a></li>
 <li style="text-align: left;"><a href="/likvidaciya-ooo-s-dolgami" title="Ликвидация фирм с долгами">Ликвидация фирм с долгами</a></li>

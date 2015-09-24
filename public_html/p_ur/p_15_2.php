@@ -19,4 +19,4 @@
 
 		<p>Если Вам необходима другая оснастка, мы закажем ее специально для Вас.</p>
 
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 2);

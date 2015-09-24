@@ -12,6 +12,7 @@
 </table>
 <div class="pageArea">
 	<div class="pageArea2">
+		<?= breadcrumbs($page); ?>
 		<? $page->Attach();?>
     </div>
 </div>

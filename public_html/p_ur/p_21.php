@@ -1,7 +1,5 @@
 <div class="text">
 
-
-
 <h1 style="color: #0a7ff4; text-align: center;">Готовые фирмы без расчетного счета</h1>
 
 <p><img src="../pictures/gotovie ooo bez scheta.jpg" border="0" alt="Готовые фирмы без расчетного счета" title="Готовые фирмы без расчетного счета" width="250" height="159" style="float: left; margin-top: 4px; margin-bottom: 4px; margin-left: 7px; margin-right: 7px;"/>У приобретения ООО готового без открытия расчетного счета есть ряд своих преимуществ. Одно из самых важных – это экономия ваших временных ресурсов и сил. Так что если вы собираетесь пойти именно этим путем, не прогадаете. </p>
@@ -33,4 +31,4 @@
 <li>составить решение о назначении руководителя и главного бухгалтера компании.</li>
 </ul>
 
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 5);

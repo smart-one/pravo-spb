@@ -3,7 +3,7 @@ require $_SERVER['DOCUMENT_ROOT']."/moduls/search/search.php";
 require $_SERVER['DOCUMENT_ROOT']."/moduls/search/config.php";
 
 $S=new Search();
-$S->setContent(htmlspecialchars($_POST["stext"]));
+$S->setContent( htmlspecialchars($_POST["stext"], ENT_QUOTES, 'UTF-8') );
 $SEARCH=$S->searchContent($S_PAGES);
 
 if($SEARCH>0)

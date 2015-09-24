@@ -1,5 +1,4 @@
 AddDefaultCharset utf-8
-ErrorDocument 404 /error.php
 
 RewriteEngine On
 RewriteBase /

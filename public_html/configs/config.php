@@ -2,11 +2,19 @@
 
 //Конфигурационный файл
 setlocale(LC_ALL, "ru_RU.utf8");
-ini_set("display_errors", 1);
-ini_set("display_startup_errors", 1);
-ini_set("error_reporting",E_ALL ^ E_NOTICE);
 
-define(_ADMIN_MAIL,"info@pravo-spb.net");
+if(strstr($_SERVER['DOCUMENT_ROOT'], "Z:")){
+  ini_set("display_errors", 1);
+  ini_set("display_startup_errors", 1);
+  ini_set("error_reporting", -1);  
+} else{
+  ini_set("display_errors", 0);
+  ini_set("display_startup_errors", 0);
+  ini_set("error_reporting", E_ALL ^ E_NOTICE);
+}
+
+define("_ADMIN_MAIL","info@pravo-spb.net");
+define("HOST", $_SERVER['HTTP_HOST']);
 
 
 $_Browser = $_SERVER['HTTP_USER_AGENT'];

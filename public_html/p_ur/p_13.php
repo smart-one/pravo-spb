@@ -1,5 +1,4 @@
 <div class="text">
-<br>
 
 <h1 style="color: #0a7ff4; text-align: center;">Как ликвидировать ООО за счет продажи доли</h1>
 <p style="text-align: justify;"><img src="../pictures/likvidaziya ooo putem prodaji doli.jpg" border="0" alt="Ликвидация ООО за счет продажи доли" title="Ликвидация ООО за счет продажи доли" width="250" height="159" style="float: left; margin-top: 4px; margin-bottom: 4px; margin-left: 7px; margin-right: 7px;"/>Проблемная правопреемственность – процесс достаточно сложный, требующий переоформления и перерегистрации всех документов, связанных с деятельностью предприятия на лицо, готовое взять на себя эту ответственность. Это один из методов закрытия бизнеса, подразумевающий продажу долей. В грамотном решении данного вопроса не обойтись без помощи квалифицированных специалистов. 
@@ -46,4 +45,4 @@
 	<li>Высокий профессиональный уровень решения задач, поставленных перед нами клиентом.</li>
 </ul>
 
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 4);

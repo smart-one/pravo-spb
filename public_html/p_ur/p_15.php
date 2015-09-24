@@ -9,4 +9,4 @@
 <li>с почтово-секретарским обслуживанием – от 7500 рублей.</li>
 </ul>
  
-<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
+<?php get_common_part("/registry_common_part.php", 2);

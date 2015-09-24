@@ -61,13 +61,13 @@ class MyPage
 	//Конструктор - определяет название страницы
 	public function __construct($src)
 	{
-		$this->urlMap = UrlMap::$urls;
+		$this->urlMap = UrlMap::getMappingArray();
 		if(empty($src)){	
 			$this->src = $this->defaultPage;
 			$this->error = "Страница не задана!";
 			return 0;
 		} else {
-			$this->src = $this->urlMap[htmlspecialchars($src)];
+			$this->src = isset($this->urlMap[$src]) ? $this->urlMap[htmlspecialchars($src)] : null;
 			if(empty($this->src)){
 				header($_SERVER["SERVER_PROTOCOL"]." 404 Not Found");
 				$this->src = "/p_error.php";

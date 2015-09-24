@@ -27,7 +27,7 @@
 
 <script type="text/javascript">
 
-  openListById('mc_4');
+  openListById('<?= "mc_" . $listId ?>');
 
 </script>
 
@@ -50,6 +50,3 @@
   <area shape="rect" coords="171,110,248,127" href="/price">
 </map>
 </div>
-<script type="text/javascript">
-  openListById('mc_1');
-</script>
