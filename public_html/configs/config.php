@@ -6,8 +6,7 @@ ini_set("display_errors", 1);
 ini_set("display_startup_errors", 1);
 ini_set("error_reporting",E_ALL ^ E_NOTICE);
 
-//define(_ADMIN_MAIL,"pravo@pravo-spb.net");
-define(_ADMIN_MAIL,"pravo-spb@mail.ru");
+define(_ADMIN_MAIL,"info@pravo-spb.net");
 
 
 $_Browser = $_SERVER['HTTP_USER_AGENT'];

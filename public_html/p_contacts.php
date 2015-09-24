@@ -15,13 +15,7 @@
 <p><b>Наши телефоны: </b></p>
 <p>+7(812)987-3428 - &#1089; 9-30 &#1076;&#1086; 19-00</p>
 
-<!--
-<p>Наша группа "Вконтакте" <a href="http://vkontakte.ru/club19064563">тут</a>.</p>
-<p>Вы можете написать нам письмо по адресу: <a href="mailto:pravo@pravo-spb.net">pravo@pravo-spb.net</a> или задать Ваш
-вопрос <a href="/question">здесь</a>.</p>
-<p>&nbsp;</p> -->
-
-<p><a href="mailto:pravo-spb@mail.ru">pravo-spb@mail.ru</a></p>
+<p><a href="mailto:info@pravo-spb.net">info@pravo-spb.net</a></p>
 <p>&nbsp;</p>
 
 <p>&nbsp;</p>
