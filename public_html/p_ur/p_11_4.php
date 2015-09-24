@@ -40,4 +40,4 @@
     <li>предложим услуги по бизнес-консалтингу(бизнес-план, оптимизация моделей управления и т.п.).</li>
 </ul>
 
-<?php require("/registry_common_part.php");
+<?php require($_SERVER['DOCUMENT_ROOT'] . "/registry_common_part.php");
