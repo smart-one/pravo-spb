@@ -1,4 +1,3 @@
-<div class="text">
 <h1 style="color: #0a7ff4; text-align: center;">Регистрация ООО</h1>
 <p style="text-align: center;"><strong>Лучшая в городе цена, регистрация за 1 посещение.</strong></p>
 <p style="text-align: center;">Через 5-7 рабочих дней, Вы получаете на руки весь пакет документов, необходимый для начала Вашей коммерческой деятельности. (<a href="online-zayavka">Заполнить заявку</a>).</p>

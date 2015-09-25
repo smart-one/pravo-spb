@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Лицензирование частной охранной деятельности </h1>
 
 <p style="text-align:center"><b>С нашей помощью Вы сможете  стать обладателем Лицензии на право осуществления негосударственной (частной) охранной деятельности посетив нас всего 1 раз.</b></p>
@@ -54,11 +53,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_6');
 </script>

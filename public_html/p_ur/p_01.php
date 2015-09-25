@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Лицензия на продажу алкоголя</h1>
 
 <p style="text-align:center"><b>С нашей помощью Вы сможете  стать обладателем лицензии на право осуществления видов деятельности, связанных с оборотом этилового спирта (хранение, импорт, экспорт, продажа алкоголя),
@@ -55,7 +54,6 @@
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_6');
 </script>

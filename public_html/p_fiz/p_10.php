@@ -1,4 +1,3 @@
-<div class="text">
 <h1>
 	Возврат денежных средств</h1>
 <p style="text-align:center">
@@ -25,11 +24,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_10');
 </script>

@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Лицензия транспортная</h1>
 
 <p style="text-align:center"><b>С нашей помощью Вы сможете  стать обладателем Лицензии на право перевозки пассажиров автомобильным транспортом, оборудованным для перевозок более 8 человек по РФ просто посетив нас всего 1 раз.</b></p>
@@ -50,11 +49,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_6');
 </script>

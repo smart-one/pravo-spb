@@ -1,4 +1,3 @@
-<div class="text">
 <h1>«Центр Правовых Услуг» предлагает Вам весь спектр услуг по бухгалтерскому обслуживанию.</h1>
 
 <p>Мы возьмем на себя работу и ответственность за ведение бухгалтерии и всей бухгалтерской документации Вашей организации(ООО, ЗАО, ОАО, ИП).</p>
@@ -48,11 +47,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_9');
 </script>

@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Вступление в СРО проектировщиков</h1>
 
 <p style="text-align:center"><b>С нашей помощью Вы сможете  стать членом СРО и получить допуск на производство инженерно-изыскательских работ, просто посетив нас всего 1 раз.
@@ -58,7 +57,6 @@
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_7');
 </script>

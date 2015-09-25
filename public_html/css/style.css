@@ -40,6 +40,10 @@ td
 {
 	padding: 0;
 }
+img
+{
+	border: none;
+}
 .tb_index
 {
 	width:1024px;

@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Трудовые споры</h1>
 <p>
 	В современных экономических условиях трудовые споры рискуют стать одной из самых распространенных категорий дел. Кризис вынуждает работодателей предпринимать в отношении своих работников не всегда законные меры воздействия.&nbsp;<br />
@@ -27,11 +26,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 
 <script type="text/javascript">
 	openListById('mc_10');

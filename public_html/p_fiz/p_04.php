@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Сопровождение сделок с недвижимостью</h1>
 <p>"ЦЕНТР ПРАВОВЫХ УСЛУГ" предлагает полное юридическое сопровождение сделок с недвижимым имуществом:</p>
 <p>
@@ -44,7 +43,6 @@
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_10');
 </script>

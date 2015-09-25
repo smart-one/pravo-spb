@@ -1,4 +1,3 @@
-<div class="text">
 <h1>Защита прав потребителей</h1>
 <p>Право на качественный и безопасный товар, право на информацию об изготовителе товара и его продавце, право на замену товара и компенсацию расходов, - это лишь минимальный список гарантий, предоставляемых &laquo;Законом о защите прав потребителей&raquo;.&nbsp;</p>
 <p>
@@ -29,11 +28,9 @@
 
 <p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
 <map name="map1">
-	
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_10');
 </script>

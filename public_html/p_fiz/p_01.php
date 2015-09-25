@@ -1,4 +1,3 @@
-<div class="text">
 <h1>КОНСУЛЬТАЦИИ</h1>
 <p style="text-align: center">
 	<strong>&laquo;ЦЕНТР ПРАВОВЫХ УСЛУГ&raquo; проводит консультации граждан по вопросам:<br />
@@ -29,7 +28,6 @@
 	<area shape="rect" coords="17,110,159,127" href="/question">
 	<area shape="rect" coords="171,110,248,127" href="/price">
 </map>
-</div>
 <script type="text/javascript">
 	openListById('mc_10');
 </script>

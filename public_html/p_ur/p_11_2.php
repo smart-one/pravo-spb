@@ -1,4 +1,3 @@
-<div class="text">
 <h1 style="color: #0a7ff4; text-align: center;">Регистрация ОАО, ЗАО</h1>
 
 <p style="text-align:center"><b>С нашей помощью Вы сможете  стать владельцем собственной фирмы просто посетив нас всего 1 раз.</b></p>
