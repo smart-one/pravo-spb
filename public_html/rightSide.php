@@ -41,7 +41,7 @@
 
     <form class="ring" action="/sender.php" method="post" onSubmit="return myValidForm(this,['fio','phone','theme']);">
 
-    	<img src="/pictures/p_12.jpg">
+    	<img src="/pictures/p_12.jpg" alt="Заказать звонок">
 
         <input type="hidden" name="type" value="call">
 

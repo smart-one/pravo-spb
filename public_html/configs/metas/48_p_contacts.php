@@ -1,1 +1,1 @@
-<meta http-equiv="description" name="description" content="Контаткы Центра Правовых Услуг в Санкт-Петербурге">
+<meta name="description" content="Контаткы Центра Правовых Услуг в Санкт-Петербурге">

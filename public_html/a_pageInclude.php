@@ -1,5 +1,5 @@
 <div style="background:#82d6fa; height:20px;"></div>
-<table class="bookmarkContainer" cellpadding="0" cellspacing="0" border="0">
+<table class="bookmarkContainer">
 <tr>
 	<td class="bookmark <? if($page->src=="/head.php") echo "selected"?>"><p><a href="/">Главная</a></p></td>
 	<td class="bookmark <? if($page->src=="/p_service.php") echo "selected"?>"><p><a href="/service">Услуги</a></p></td>

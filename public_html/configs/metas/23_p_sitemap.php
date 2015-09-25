@@ -1,1 +1,1 @@
-<meta http-equiv="description" name="description" content="Карта сайта">
+<meta name="description" content="Карта сайта">

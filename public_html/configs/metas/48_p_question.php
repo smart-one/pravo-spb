@@ -1,1 +1,1 @@
-<script src=\"/moduls/myScripts/myValidForm.js\"><\/script><meta http-equiv="description" name="description" content="через форму на сайте можно задать вопрос юристу онлайн">
+<script src=\"/moduls/myScripts/myValidForm.js\"><\/script><meta name="description" content="через форму на сайте можно задать вопрос юристу онлайн">

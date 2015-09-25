@@ -1,2 +1,2 @@
-<meta http-equiv="description" name="description" content="Ссылки на интернет порталы, которые содержат информацию правового характера и могут быть полезны в Вашей деятельности.">
-		<meta http-equiv="keywords" name="keywords" content="справочная информация">
+<meta name="description" content="Ссылки на интернет порталы, которые содержат информацию правового характера и могут быть полезны в Вашей деятельности.">
+		<meta name="keywords" content="справочная информация">

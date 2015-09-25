@@ -1,1 +1,1 @@
-<meta http-equiv="description" name="description" content="список услуг центра правовых услуг на этой странице сайта">
+<meta name="description" content="список услуг центра правовых услуг на этой странице сайта">
