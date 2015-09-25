@@ -3,7 +3,7 @@
 	$page = new myPage(isset($_GET["page"]) ? $_GET["page"] : null);
 	$page->getThisPageAttributs();
 ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<!DOCTYPE html>
 <html>
 <head>
 <? echo $page->metas;?>
@@ -18,7 +18,6 @@
 </head>
 
 <body>
-    <center>
     <table cellpadding="0" cellspacing="0" border="0" class="tb_index" >
     <tr>
     	<td colspan="100%"  style="height:146px;">
@@ -37,6 +36,5 @@
         	<? include $_SERVER['DOCUMENT_ROOT']."/bottom.php";?>        </td>
     </tr>
     </table>
-    </center>
 </body>
 </html>

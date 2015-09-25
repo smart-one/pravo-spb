@@ -7,7 +7,7 @@ $page->defaultTitle="Добро пожаловать в панель управ�
 $page->titleDefinitionFile="/admin/configs/titles/titles.php";
 $page->metaDefinitionDir="/admin/configs/metas";
  ?>
-<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" >
+<!DOCTYPE html>
 <html>
 <head>
 	<? $page->Metas();?>
