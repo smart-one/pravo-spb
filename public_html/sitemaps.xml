@@ -4,8 +4,6 @@
       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
       xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
             http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
-<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
-
 <url>
   <loc>http://www.pravo-spb.net/</loc>
 </url>
@@ -43,7 +41,7 @@
   <loc>http://www.pravo-spb.net/registraciya-ooo-zao</loc>
 </url>
 <url>
-  <loc>http://www.pravo-spb.net/registraciya-nekommercheskih-organizaciy</loc>
+  <loc>http://www.pravo-spb.net/registraciya-nekommercheskih-organizaciy</loc> 
 </url>
 <url>
   <loc>http://www.pravo-spb.net/registraciya-ip</loc>
@@ -85,9 +83,6 @@
   <loc>http://www.pravo-spb.net/contacts</loc>
 </url>
 <url>
-  <loc>http://www.pravo-spb.net/likvidaciya-ooo</loc>
-</url>
-<url>
   <loc>http://www.pravo-spb.net/ring</loc>
 </url>
 <url>
@@ -100,13 +95,10 @@
   <loc>http://www.pravo-spb.net/sitemap</loc>
 </url>
 <url>
-  <loc>http://www.pravo-spb.net/request</loc>
-</url>
-<url>
   <loc>http://www.pravo-spb.net/uchastie-v-peregovorah</loc>
 </url>
 <url>
-  <loc>http://www.pravo-spb.net/idicheskaya-pomosh</loc>
+  <loc>http://www.pravo-spb.net/uridicheskaya-pomosh</loc>
 </url>
 <url>
   <loc>http://www.pravo-spb.net/predstavitelstvo-v-gos-organah</loc>

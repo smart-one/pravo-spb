@@ -16,7 +16,7 @@
 
         <div class="menuContainerOpen" id="mc_1">
 
-            <a href="/likvidaciya-ooo">Регистрация ООО</a>
+            <a href="/registraciya-ooo-v-spb">Регистрация ООО</a>
 
             <a href="/registraciya-ooo-zao">Регистрация ЗАО, ОАО</a>
 
@@ -54,7 +54,7 @@
 
         <div class="menuContainerOpen" id="mc_3"> 
 
-            <a href="/idicheskaya-pomosh">Изменения вносимые в Устав</a>
+            <a href="/uridicheskaya-pomosh">Изменения вносимые в Устав</a>
 
         </div>
 

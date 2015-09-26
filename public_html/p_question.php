@@ -1,8 +1,5 @@
-<link rel="stylesheet" type="text/css" href="/css/form.css">
-
 <p>&nbsp;</p>
-<center>
-<div class="form-bg">
+<div class="form-bg center-block">
 	<div class="form-top">
     	<div class="form-bottom">
         	<div class="form-header">Задать вопрос</div>
@@ -28,13 +25,12 @@
              ></span></span></span></p>
             
             <p>&nbsp;</p>
-            <p style="text-align:left"><input  type="submit" name="submit" value="" class="button"></p>
+            <p style="text-align:left"><input  type="submit" name="submit" value="Отправить" class="button"></p>
             </form> 
 
         </div>
     </div>
 </div>
-</center>
 
 
 

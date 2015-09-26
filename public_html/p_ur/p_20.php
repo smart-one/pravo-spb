@@ -14,11 +14,11 @@
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 
-<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
+<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1" alt="Лучшее предложение на рынке юр услуг"></p>
 <map name="map1">
 	
-	<area shape="rect" coords="17,110,159,127" href="/question">
-	<area shape="rect" coords="171,110,248,127" href="/price">
+	<area shape="rect" coords="17,110,159,127" href="/question" alt="задать вопрос">
+	<area shape="rect" coords="171,110,248,127" href="/price" alt="цены">
 </map>
 <script type="text/javascript">
 	openListById('mc_8');

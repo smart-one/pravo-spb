@@ -10,6 +10,7 @@ $page->getThisPageAttributs();
     <script type="text/javascript" src="/Scripts/menu.js"></script>
     <script type="text/javascript" src="/moduls/myScripts/myValidForm.js"></script>
     <link rel="stylesheet" type="text/css" href="/css/pageArea.css">
+    <link rel="stylesheet" type="text/css" href="/css/form.css">
     <script type="text/javascript" src="/Scripts/jquery.js"></script>
     <script type="text/javascript" src="/Scripts/init.js"></script>
     <title><? echo $page->title;?></title>

@@ -1,10 +1,7 @@
 <h1>Заказать звонок</h1>
 <p>Если Вы хотите, чтобы мы сами позвонили Вам, просто оставьте заявку:</p>
-
-<link rel="stylesheet" type="text/css" href="/css/form.css">
 <p>&nbsp;</p>
-<center>
-<div class="form-bg">
+<div class="form-bg center-block">
 	<div class="form-top">
     	<div class="form-bottom">
         	<div class="form-header">Заказать звонок</div>
@@ -42,7 +39,6 @@
         </div>
     </div>
 </div>
-</center>
 
 
 

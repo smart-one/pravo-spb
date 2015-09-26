@@ -57,7 +57,7 @@
 <hr style="font-size: 9px; font-weight: 100; color: #0a7ff4;" />
 <h2 style="font-size: 14px; color: #0a7ff4;">Другие услуги Центра Правовых Услуг:</h2>
 <ul>
-<li><a href="/likvidaciya-ooo" title="Регистрация ООО">Регистрация ООО от 9000 рублей</a></li>
+<li><a href="/registraciya-ooo-v-spb" title="Регистрация ООО">Регистрация ООО от 9000 рублей</a></li>
 <li><a href="/gotivie-ooo-bez-cheta" title="Готовые ООО">Готовые фирмы ООО от 25.000 рублей</a></li>
 <li><a href="/predostavlenie-uridicheskogo-adresa-pri-registracii" title="Юридический адрес">Предоставление юридического адреса от 2500 р</a></li>
 <li><a href="/otkrit-schet" title="Открыть расчетный счет">Открытие расчетного счета в банке</a></li>
