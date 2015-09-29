@@ -1,6 +1,6 @@
         <div class="menuName"><p>Готовые фирмы</p></div>
 
-        <div class="menuContainerOpen" id="mc_5">
+        <div class="menuContainerOpen">
 
             <a href="/gotivie-ooo-bez-cheta">Фирмы без открытого счета</a>
 
@@ -14,7 +14,7 @@
 
 		<div class="menuName" style="border-top:0px"><p>Регистрация фирм и предпринимателей</p></div>
 
-        <div class="menuContainerOpen" id="mc_1">
+        <div class="menuContainerOpen">
 
             <a href="/registraciya-ooo-v-spb">Регистрация ООО</a>
 
@@ -34,7 +34,7 @@
 
         <div class="menuName"><p>Дополнительные услуги при регистрации фирм и предпринимателей</p></div>
 
-        <div class="menuContainerOpen" id="mc_2">        
+        <div class="menuContainerOpen">        
 
             <a href="/predostavlenie-uridicheskogo-adresa-pri-registracii">Предоставление юридического адреса</a>
 
@@ -52,7 +52,7 @@
 
         <div class="menuName"><p>Внесение изменений</p></div>
 
-        <div class="menuContainerOpen" id="mc_3"> 
+        <div class="menuContainerOpen"> 
 
             <a href="/uridicheskaya-pomosh">Изменения вносимые в Устав</a>
 
@@ -62,7 +62,7 @@
 
         <div class="menuName"><p>Ликвидация фирм</p></div>
 
-        <div class="menuContainerOpen" id="mc_4">
+        <div class="menuContainerOpen">
 
             <a href="/predstavitelstvo-v-gos-organah">Путем продажи доли</a>
 
@@ -78,14 +78,14 @@
 
     <p>&nbsp;</p>
 
-<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
+<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1" alt="лучшее предложение на рынке юр услуг"></p>
 
 <map name="map1">
 
 	
 
-	<area shape="rect" coords="17,110,159,127" href="/question">
+	<area shape="rect" coords="17,110,159,127" href="/question" alt="задать вопрос">
 
-	<area shape="rect" coords="171,110,248,127" href="/price">
+	<area shape="rect" coords="171,110,248,127" href="/price" alt="цена">
 
 </map>

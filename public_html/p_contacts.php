@@ -9,8 +9,8 @@
 </ul>
 
 <p><b>Мы предоставляем услугу бесплатного выезда курьера в Ваш офис!</b></p>
-<center>
-<iframe src="https://mapsengine.google.com/map/embed?mid=zNUQesoaa0pM.kELeHsznsSqI" width="435" height="350"></iframe></center>
+
+<iframe class="center-block" src="https://mapsengine.google.com/map/embed?mid=zNUQesoaa0pM.kELeHsznsSqI" width="435" height="350"></iframe>
 
 <p><b>Наши телефоны: </b></p>
 <p>+7(812)987-3428 - &#1089; 9-30 &#1076;&#1086; 19-00</p>
@@ -20,11 +20,11 @@
 
 <p>&nbsp;</p>
 
-<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1"></p>
+<p  style="text-align:center"><img src="/pictures/bottom.jpg" usemap="#map1" alt="лучшее предложение на рынке юр услуг"></p>
+
 <map name="map1">
-	
-	<area shape="rect" coords="17,110,159,127" href="/question">
-	<area shape="rect" coords="171,110,248,127" href="/price">
+	<area shape="rect" coords="17,110,159,127" href="/question" alt="задать вопрос">
+	<area shape="rect" coords="171,110,248,127" href="/price" alt="цены">
 </map>
 
 </div>
